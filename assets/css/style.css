@@ -31,6 +31,10 @@ header {
     background-color: #f7a072;
     padding: 0 .75rem;
     height: 75px;
+    position: fixed;
+    z-index: 80;
+    width: 100%;
+    box-shadow: 0 3px 2px #233d4d;
 }
 
 header a {
@@ -85,7 +89,7 @@ header a {
 
     background-color: rgba(9, 35, 50, .65);
 
-    bottom: 30px;
+    bottom: 300px;
     right: 150px;
 
     position: absolute;
@@ -97,10 +101,24 @@ header a {
 
 /* Main content */
 main {
-    background-color: darkgoldenrod;
     padding: 0 .75rem;
-
 }
+
+#about {
+    width: 80%;
+    position: relative;
+    left: 50%;
+}
+
+#about > p {
+    width: 90%;
+}
+
+hr {
+    width: 80%;
+    align-self: center;
+}
+
 
 /* Footer */
 footer {
