@@ -52,6 +52,13 @@ header a {
     margin-right: 20px;
 }
 
+#navbar a:hover {
+    border-bottom: 1px solid #233d4d;
+}
+
+.active {
+    border-bottom: 1px solid #233d4d;
+}
 
 
 /* Main content */
