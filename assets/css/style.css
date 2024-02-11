@@ -10,31 +10,25 @@
 
 /* General styles */
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic styles */
     color: #233d4d;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1 {
     font-family: 'Urbanist', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: #233d4d;
-}
-
-#logo {
-    float: left;
-    font-size: 260%;
 }
 
 /* Header */
 header {
     background-color: #f7a072;
     padding: 0 .75rem;
-    height: 75px;
-    position: fixed;
-    z-index: 80;
-    width: 100%;
-    box-shadow: 0 3px 2px #233d4d;
 }
 
 header a {
@@ -42,87 +36,31 @@ header a {
     color: inherit;
 }
 
-#navbar, #logo {
-    line-height: 75px;
-}
-
 #navbar {
     font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    background-color:#f7a072;
+    margin-top: 10px;
 }
 
-#navbar li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
+#navbar > li {
+    margin-bottom: .5em;
 }
 
 #navbar a:hover {
     border-bottom: 1px solid #233d4d;
-}9
-
-.active {
-    border-bottom: 1px solid #233d4d;
-}
-
-/* Hero Image */
-#hero {
-    position: relative;
-}
-
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url(../images/cat-cafe-boba-tea_1598x600px.webp) no-repeat center center;
-}
-
-#overlay-text {
-    font-size: 150%;
-    letter-spacing: 5px;
-    color: #ffffff;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-
-    background-color: rgba(9, 35, 50, .65);
-
-    bottom: 300px;
-    right: 150px;
-
-    position: absolute;
-}
-
-#overlay-text > h2 {
-    color: #ffffff;
 }
 
 /* Main content */
 main {
     padding: 0 .75rem;
+    /* Makes main element take up any surplus space and push the footer to the bottom of the page */
+    flex: 1 0 auto;
 }
-
-#about {
-    width: 80%;
-    position: relative;
-    left: 50%;
-}
-
-#about > p {
-    width: 90%;
-}
-
-hr {
-    width: 80%;
-    align-self: center;
-}
-
 
 /* Footer */
 footer {
     background-color: cornflowerblue;
     padding: 0 .75rem;
 }
-
