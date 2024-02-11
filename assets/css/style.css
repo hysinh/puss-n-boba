@@ -1,15 +1,28 @@
-body {
-    background-color: blueviolet;
+/* Widlcard selector to override default styles of browser */
+/* Code from Love Running walkthrough project */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    background-color: blueviolet;
+
+}
+
+/* Header */
 header {
     background-color: aquamarine;
 }
 
+/* Main content */
 main {
     background-color: darkgoldenrod;
 }
 
+/* Footer */
 footer {
     background-color: cornflowerblue;
 }
