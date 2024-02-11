@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,400;1,600&family=Urbanist:wght@700&display=swap');
+
 /* Widlcard selector to override default styles of browser */
 /* Code from Love Running walkthrough project */
 * {
@@ -8,21 +10,42 @@
 
 /* General styles */
 body {
-    background-color: blueviolet;
+    color: #233d4d;
+    font-family: 'Montserrat', sans-serif;
+}
 
+h1 {
+    font-family: 'Urbanist', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #233d4d;
 }
 
 /* Header */
 header {
-    background-color: aquamarine;
+    background-color: #b5e2fa;
+    display: block;
+    padding: 0 .75rem;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar {
+    list-style-type: none;
 }
 
 /* Main content */
 main {
     background-color: darkgoldenrod;
+    display: block;
+    flex-direction: column;
 }
 
 /* Footer */
 footer {
     background-color: cornflowerblue;
 }
+
