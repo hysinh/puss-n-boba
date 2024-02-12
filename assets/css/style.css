@@ -30,11 +30,6 @@ h3 {
     padding-top: 10px;
 }
 
-hr {
-    width: 90%;
-    color: #233d4d;
-}
-
 .icon {
     color: #619b8a;
     font-size: 200%;
@@ -251,7 +246,7 @@ footer p {
 
     #about-cafe, #about-boba, #about-treats {
         width: 30%;
-        height: 150px;
+        height: 175px;
     }
 }
 
@@ -271,6 +266,6 @@ footer p {
 
     /* About section */
     #about-cafe, #about-boba, #about-treats {
-        height: 100px;
+        height: 150px;
     }
 }
