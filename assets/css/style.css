@@ -95,11 +95,20 @@ main {
 /* Footer */
 footer {
     background-color: cornflowerblue;
-    padding: 0 .75rem;
+    padding: 1rem .75rem;
+    text-align: center;
 }
 
 footer > ul {
     list-style-type: none;
+    display: inline-block;
+}
+
+footer li {
+    float: left;
+    color: #233d4d;
+    padding: 0 10px;
+    font-size: 125%;
 }
 
 footer a {
