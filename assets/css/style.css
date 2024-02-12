@@ -35,6 +35,14 @@ hr {
     color: #233d4d;
 }
 
+.icon {
+    color: #619b8a;
+    font-size: 200%;
+    /* makes it float in the center */ 
+    position: relative;
+    left: 43%;
+}
+
 /* Header */
 header {
     background-color: #f7a072;
