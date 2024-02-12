@@ -29,6 +29,14 @@ h1 {
 header {
     background-color: #f7a072;
     padding: 0 .75rem;
+    /* Fixes Header to top */
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    /* Nav togglebox */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -60,6 +68,12 @@ nav {
     padding: 2px 1rem;
     left: 0;
     display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 /* Main content */
