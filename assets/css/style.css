@@ -52,6 +52,16 @@ header a {
     border-bottom: 1px solid #233d4d;
 }
 
+/* Navbar styles with dropdown with hamburger toggle */
+nav {
+    position: absolute;
+    background-color: #f7a072;
+    width: 100%;
+    padding: 2px 1rem;
+    left: 0;
+    display: none;
+}
+
 /* Main content */
 main {
     padding: 0 .75rem;
