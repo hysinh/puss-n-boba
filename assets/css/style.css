@@ -98,6 +98,14 @@ footer {
     padding: 0 .75rem;
 }
 
+footer > ul {
+    list-style-type: none;
+}
+
+footer a {
+    color: inherit;
+}
+
 /* Media query for tablets and later (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -145,4 +153,6 @@ footer {
     #navbar a:hover {
         border-bottom: 1px solid #233d4d;
     }
+
+
 }
