@@ -115,7 +115,7 @@ main {
     bottom: 300px;
     right: 10px;
     padding: 40px 20px 10px 20px;
-    border-radius: 7%;
+    border-radius: 15px;
 }
 
 #overlay-text h2 {
@@ -124,6 +124,16 @@ main {
 
 #overlay-text p {
     font-size: 80%;
+}
+
+/* About Section */
+#about {
+    width: 250px;
+    background-color: #b5e2fa;
+}
+
+#about-cafe {
+    float: center;
 }
 
 /* Footer */
@@ -194,6 +204,13 @@ footer p {
     main {
         margin-top: 65px;
     }
+
+    /* Hero section */
+    #overlay-text {
+        width: 350px;
+        bottom: 275px;
+        left: 75px;
+    }
 }
 
 /* larger devices - laptops, desktops, and up (992px and up)  */
@@ -203,5 +220,10 @@ footer p {
         border-bottom: 1px solid #233d4d;
     }
 
-
+    /* Hero section */
+    #overlay-text {
+        width: 450px;
+        bottom: 275px;
+        left: 250px;
+    }
 }
