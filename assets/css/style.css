@@ -243,6 +243,7 @@ footer p {
 
     #about-cafe, #about-boba, #about-treats {
         width: 30%;
+        height: 150px;
     }
 }
 
@@ -258,5 +259,10 @@ footer p {
         width: 450px;
         bottom: 275px;
         left: 250px;
+    }
+
+    /* About section */
+    #about-cafe, #about-boba, #about-treats {
+        height: 100px;
     }
 }
