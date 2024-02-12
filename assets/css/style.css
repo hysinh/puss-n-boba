@@ -27,6 +27,7 @@ h1 {
 
 h3 {
     text-align: center;
+    padding-top: 10px;
 }
 
 hr {
@@ -95,6 +96,7 @@ nav {
 
 /* Main content */
 main {
+    width: 100%;
     padding: 0;
     /* Makes main element take up any surplus space and push the footer to the bottom of the page */
     flex: 1 0 auto;
@@ -144,10 +146,6 @@ main {
     padding-bottom: 10px;
 }
 
-#about h3 {
-    padding-top: 10px;
-}
-
 #about h4 {
     text-align: center;
     padding-bottom: 1rem;
@@ -156,7 +154,7 @@ main {
 #about-cafe, #about-boba, #about-treats {
     width: 90%;
     background-color: #b5e2fa;
-    margin: 5px;
+    margin: 10px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -235,6 +233,16 @@ footer p {
         width: 350px;
         bottom: 275px;
         left: 75px;
+    }
+
+    /* About section */
+    #about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about-cafe, #about-boba, #about-treats {
+        width: 30%;
     }
 }
 
