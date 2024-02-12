@@ -100,9 +100,30 @@ main {
 }
 
 .hero-image {
-    height: 600px;
+    height: 550px;
     width: 100%;
     background: url(../images/cat-cafe-boba-tea_1598x600px.webp) no-repeat center center;
+}
+
+#overlay-text {
+    background-color: rgba(9, 35, 50, .65);
+    font-size: 130%;
+    color: #ffffff;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    bottom: 300px;
+    right: 10px;
+    padding: 40px 20px 10px 20px;
+    border-radius: 7%;
+}
+
+#overlay-text h2 {
+    color: #eddea4;
+}
+
+#overlay-text p {
+    font-size: 80%;
 }
 
 /* Footer */
