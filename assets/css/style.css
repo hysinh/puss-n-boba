@@ -89,7 +89,7 @@ main {
     padding: 0;
     /* Makes main element take up any surplus space and push the footer to the bottom of the page */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 37px;
 }
 
 /* Hero Image */
