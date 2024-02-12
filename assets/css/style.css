@@ -111,7 +111,7 @@ footer {
 
     #logo {
         font-size: 200%;
-        line-height: 75px;
+        line-height: 65px;
     }
 
     nav {
@@ -136,6 +136,10 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    main {
+        margin-top: 80px;
     }
 }
 
