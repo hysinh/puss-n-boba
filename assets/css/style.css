@@ -56,10 +56,6 @@ header a {
     margin-bottom: .5em;
 }
 
-#navbar a:hover {
-    border-bottom: 1px solid #233d4d;
-}
-
 .active {
     border-bottom: 1px solid #233d4d;
 }
@@ -137,11 +133,16 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-
+    /* Main section */
     main {
         margin-top: 80px;
     }
 }
 
-/* Media query for tablets and later (768px and up) */
-@media screen and (min-width: 768px) {
+/* larger devices - laptops, desktops, and up (992px and up)  */
+@media screen and (min-width: 992px) {
+    /* Header */
+    #navbar a:hover {
+        border-bottom: 1px solid #233d4d;
+    }
+}
