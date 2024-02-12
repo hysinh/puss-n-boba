@@ -106,7 +106,7 @@ footer > ul {
 
 footer li {
     float: left;
-    color: #233d4d;
+    color: #092332;
     padding: 0 10px;
     font-size: 125%;
 }
@@ -115,6 +115,11 @@ footer a {
     color: inherit;
 }
 
+footer p {
+    color: #092332;
+    font-size: 60%;
+    padding-top: 1rem;
+}
 /* Media query for tablets and later (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
