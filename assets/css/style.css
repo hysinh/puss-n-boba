@@ -111,13 +111,14 @@ footer {
 
     #logo {
         font-size: 200%;
+        line-height: 75px;
     }
 
     nav {
         display: block;
         position: relative;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: .75rem;
     }
 
     #navbar {
