@@ -179,6 +179,9 @@ main {
 
 #cats {
     background-color: #eddea4;
+    margin: 1rem;
+    padding: 7px;
+    border-radius: 10px 10px 0 0 ;
 }
 
 /* Footer */
