@@ -194,7 +194,21 @@ main {
 }
 
 #cat1 {
-    background: url("../images/Lady_600x600.webp") no-repeat center;
+    background: url("../images/long_hair_cat_600x600.webp") no-repeat center 15%;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#cat2 {
+    background: url("../images/siamese_cat_250x350.webp") no-repeat center;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#cat3, #cat4, #cat5, #cat6 {
+    background: url("../images/gray_cat_500x750.webp") no-repeat center 40%;
     width: 250px;
     height: 250px;
     border-radius: 10px 10px 0 0 ;
