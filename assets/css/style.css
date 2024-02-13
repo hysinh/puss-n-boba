@@ -317,16 +317,13 @@ footer p {
 
     .cat-profile-image {
         border-radius:  10px 0 0 0;
-        flex-grow: 2;
+        width: 40%;
     }
 
-    #cat1 {
-        flex-grow: 2;
-    }
-    
     .cat-description {
-        flex-grow: 1;
+        width: 60%;
     }
+
 
 /* larger devices - laptops, desktops, and up (992px and up)  */
 @media screen and (min-width: 992px) {
