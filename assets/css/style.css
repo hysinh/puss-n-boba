@@ -193,38 +193,36 @@ main {
     border-radius: 10px 10px 0 0 ;
 }
 
-#cat1 {
-    background: url("../images/long_hair_cat_600x600.webp") no-repeat center 15%;
+.cat-profile-image {
     width: 250px;
     height: 250px;
     border-radius: 10px 10px 0 0 ;
+}
+
+#cat1 {
+    background: url("../images/long_hair_cat_600x600.webp") no-repeat center 15%;
 }
 
 #cat2 {
     background: url("../images/siamese_cat_250x350.webp") no-repeat center;
-    width: 250px;
-    height: 250px;
-    border-radius: 10px 10px 0 0 ;
 }
 
 #cat3, #cat4, #cat5, #cat6 {
     background: url("../images/gray_cat_500x750.webp") no-repeat center 40%;
-    width: 250px;
-    height: 250px;
-    border-radius: 10px 10px 0 0 ;
 }
 
-#cat-description {
+.cat-description {
     padding: 1rem;
 }
 
-#cat-description > h4 {
+.cat-description > h4 {
     padding-bottom: .75rem;
 }
 
 /* Footer */
 footer {
     background-color: cornflowerblue;
+    color: #092332;
     padding: 1rem .75rem;
     text-align: center;
 }
@@ -236,7 +234,6 @@ footer > ul {
 
 footer li {
     float: left;
-    color: #092332;
     padding: 0 10px;
     font-size: 125%;
 }
@@ -246,7 +243,6 @@ footer a {
 }
 
 footer p {
-    color: #092332;
     font-size: 60%;
     padding-top: 1rem;
     font-weight: bold;
@@ -312,7 +308,25 @@ footer p {
         flex-direction: row;
         flex-wrap: nowrap;
     }
-}
+
+    /* Cat section */
+    #cats {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cat-profile-image {
+        border-radius:  10px 0 0 0;
+        flex-grow: 2;
+    }
+
+    #cat1 {
+        flex-grow: 2;
+    }
+    
+    .cat-description {
+        flex-grow: 1;
+    }
 
 /* larger devices - laptops, desktops, and up (992px and up)  */
 @media screen and (min-width: 992px) {
