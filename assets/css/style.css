@@ -172,16 +172,40 @@ main {
 #about-cafe, #about-boba, #about-treats {
     width: 250px;
     background-color: #b5e2fa;
-    margin: 10px;
+    margin: 1rem;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0 ;
+}
+/* Cat Section */
+#cat-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: blueviolet;
 }
 
 #cats {
     background-color: #eddea4;
     margin: 1rem;
-    padding: 7px;
+    padding: 0;
     border-radius: 10px 10px 0 0 ;
+}
+
+#cat1 {
+    background: url("../images/Lady_600x600.webp") no-repeat center;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#cat-description {
+    padding: 1rem;
+}
+
+#cat-description > h4 {
+    padding-bottom: .75rem;
 }
 
 /* Footer */
@@ -274,10 +298,6 @@ footer p {
         flex-direction: row;
         flex-wrap: nowrap;
     }
-
-    #about-cafe, #about-boba, #about-treats {
-        width: 400px;
-    }
 }
 
 /* larger devices - laptops, desktops, and up (992px and up)  */
@@ -296,6 +316,6 @@ footer p {
 
     /* About section */
     #about-cafe, #about-boba, #about-treats {
-        height: 150px;
+        width: 500px;
     }
 }
