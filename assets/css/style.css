@@ -101,16 +101,13 @@ nav {
 main {
     width: 100%;
     padding: 0;
-    /* Makes main element take up any surplus space and push the footer to the bottom of the page */
-    flex: 1 0 auto;
+    /* Makes main element take up any surplus space and push the footer to the bottom of the page 
+    flex: 1 0 auto;*/
     margin-top: 37px;
 }
 
 #main-center {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    width: 100%;
 }
 
 /* Hero Image */
@@ -145,6 +142,23 @@ main {
 
 #overlay-text p {
     font-size: 80%;
+}
+
+/* TEST SECTION TO GET CONTAINER TO FLOAT CENTER */
+#test-float-center {
+    background-color: blueviolet;
+    width: 100%;
+    height: 100px;
+}
+
+#test2-float-center {
+    background-color: crimson;
+    width: 100%;
+    height: 100px;
+}
+
+.center {
+    text-align: center;
 }
 
 /* About Section */
@@ -219,7 +233,6 @@ footer p {
 
     #navbar {
         display: flex;
-        font-size: 125%;
     }
 
     #navbar > li {
@@ -236,6 +249,31 @@ footer p {
     /* Main section */
     main {
         margin-top: 65px;
+        /* test section */
+        
+    }
+/*
+    #test-float-center {
+        width: 70%;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #test2-float-center {
+        width: 70%;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }*/
+
+    #main-center {
+        width: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Hero section */
@@ -253,7 +291,6 @@ footer p {
 
     #about-cafe, #about-boba, #about-treats {
         width: 30%;
-        height: 175px;
     }
 }
 
