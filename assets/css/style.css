@@ -201,15 +201,19 @@ main {
 }
 
 #cat1 {
-    background: url("../images/long_hair_cat_600x600.webp") no-repeat center 15%;
+    background: url("../images/calico_cat_300x300.webp") no-repeat center;
 }
 
 #cat2 {
-    background: url("../images/siamese_cat_250x350.webp") no-repeat center;
+    background: url("../images/siamese_cat_300x300.webp") no-repeat center;
 }
 
-#cat3, #cat4, #cat5, #cat6 {
+#cat3, #cat4, #cat6 {
     background: url("../images/gray_cat_500x750.webp") no-repeat center 40%;
+}
+
+#cat5 {
+    background: url("../images/long_hair_cat_600x600.webp") no-repeat center 15%;
 }
 
 .cat-description {
@@ -313,6 +317,16 @@ footer p {
     }
 
     /* Cat section */
+    #cat-section {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;        
+        align-items: flex-start;
+        /*
+        padding-bottom: 10px;*/
+    }
+/*
     .cats {
         display: flex;
         flex-direction: row;
@@ -325,7 +339,7 @@ footer p {
 
     .cat-description {
         width: 60%;
-    }
+    }*/
 
 /* larger devices - laptops, desktops, and up (992px and up)  */
 @media screen and (min-width: 992px) {
