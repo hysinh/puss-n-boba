@@ -108,6 +108,7 @@ main {
 
 #main-center {
     width: 100%;
+    margin-top: 3rem;
 }
 
 #main-center h2 {
@@ -169,7 +170,7 @@ main {
     padding-bottom: 1rem;
 }
 
-#about-cafe, #about-boba, #about-treats {
+#about-cafe {
     width: 250px;
     background-color: #b5e2fa;
     margin: 1rem;
@@ -186,7 +187,7 @@ main {
     background-color: blueviolet;
 }
 
-#cats {
+.cats {
     background-color: #eddea4;
     margin: 1rem;
     padding: 0;
@@ -247,6 +248,7 @@ footer p {
     padding-top: 1rem;
     font-weight: bold;
 }
+
 /* Media query for tablets and later (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -281,6 +283,7 @@ footer p {
     .nav-toggle-label {
         display: none;
     }
+
     /* Main section */
     main {
         margin-top: 65px;
@@ -310,7 +313,7 @@ footer p {
     }
 
     /* Cat section */
-    #cats {
+    .cats {
         display: flex;
         flex-direction: row;
     }
@@ -323,7 +326,6 @@ footer p {
     .cat-description {
         width: 60%;
     }
-
 
 /* larger devices - laptops, desktops, and up (992px and up)  */
 @media screen and (min-width: 992px) {
@@ -343,4 +345,11 @@ footer p {
     #about-cafe, #about-boba, #about-treats {
         width: 500px;
     }
+
+    /* Cat section */
+    #main-center {
+        width: 60%;
+    }
+
+    .cats {}
 }
