@@ -106,8 +106,8 @@ nav {
 main {
     width: 100%;
     padding: 0;
-    /* Makes main element take up any surplus space and push the footer to the bottom of the page 
-    flex: 1 0 auto;*/
+    /* Makes main element take up any surplus space and push the footer to the bottom of the page */
+    flex: 1 0 auto;
     margin-top: 37px;
 
 }
@@ -120,7 +120,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: auto on main element; /* added to making main section scrollable */
+    /* overflow: auto on main element; added to making main section scrollable 
+    max-height: 100vh; */
 }
 
 #main-center h2 {
