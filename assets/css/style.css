@@ -197,7 +197,7 @@ main {
 .cat-profile-image {
     width: 250px;
     height: 250px;
-    border-radius: 10px 10px 0 0 ;
+    border-radius: 50%;
 }
 
 #cat1 {
@@ -318,28 +318,26 @@ footer p {
 
     /* Cat section */
     #cat-section {
-        width: 600px;
         display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;        
+        flex-direction: row;
+        flex-wrap: wrap;        
         align-items: flex-start;
         /*
         padding-bottom: 10px;*/
     }
-/*
+
     .cats {
-        display: flex;
-        flex-direction: row;
+        width: 250px;
+        display: inline;
     }
 
     .cat-profile-image {
-        border-radius:  10px 0 0 0;
-        width: 40%;
+        border-radius:  50%;
     }
 
     .cat-description {
-        width: 60%;
-    }*/
+
+    }
 
 /* larger devices - laptops, desktops, and up (992px and up)  */
 @media screen and (min-width: 992px) {
