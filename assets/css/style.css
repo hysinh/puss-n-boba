@@ -51,9 +51,9 @@ p {
 header {
     background-color: #f7a072;
     padding: 0 .75rem;
-    /* Fixes Header to top */
+    /* Fixes Header to top 
     position: fixed;
-    z-index: 99;
+    z-index: 99;*/
     width: 100dvw;
     /* Nav togglebox */
     display: flex;
