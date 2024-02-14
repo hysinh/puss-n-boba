@@ -35,6 +35,10 @@ h3 {
     padding-top: 10px;
 }
 
+p {
+    text-align: center;
+}
+
 .icon {
     color: #619b8a;
     font-size: 200%;
