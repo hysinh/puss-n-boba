@@ -50,7 +50,7 @@ header {
     /* Fixes Header to top */
     position: fixed;
     z-index: 99;
-    width: 100%;
+    width: 100dvw;
     /* Nav togglebox */
     display: flex;
     justify-content: space-between;
