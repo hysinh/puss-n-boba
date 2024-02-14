@@ -105,6 +105,7 @@ main {
     /* Makes main element take up any surplus space and push the footer to the bottom of the page 
     flex: 1 0 auto;*/
     margin-top: 37px;
+
 }
 
 #main-center {
@@ -115,6 +116,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: auto on main element;
 }
 
 #main-center h2 {
@@ -160,6 +162,11 @@ main {
     text-align: center;
 }
 
+.header {
+    margin-top: 5rem;
+    margin-bottom: 20px;
+}
+
 /* About Section */
 #about {
     background-color: coral;
@@ -194,6 +201,7 @@ main {
 }
 
 .cats {
+    background-color: aqua;
     margin: 1rem;
     padding: 0;
     display: flex;
@@ -249,15 +257,15 @@ main {
 #menu-section {
     background-color: aquamarine;
     width: 250px;
-    margin: 1rem;
-    padding: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
     display: block;
 }
 
 .menu-description {
     background-color: crimson;
-    margin-top: 10px;
-    padding: 1rem;
+    margin-top: 5px;
+    padding-bottom: 1rem;
 }
 
 .menu-description ul {
@@ -380,8 +388,18 @@ footer p {
         border-radius:  50%;
     }
 
-    .cat-description {
+    /* Menu section */
+    #menu-section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        justify-content: center;
+    }
 
+    .menu-description {
+        width: 175px;
+        margin: 1rem;
     }
 
 /* larger devices - laptops, desktops, and up (992px and up)  */
