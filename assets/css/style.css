@@ -108,8 +108,13 @@ main {
 }
 
 #main-center {
+    background-color: blueviolet;
     width: 100%;
     margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #main-center h2 {
@@ -157,6 +162,7 @@ main {
 
 /* About Section */
 #about {
+    background-color: coral;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -179,6 +185,7 @@ main {
 }
 /* Cat Section */
 #cat-section {
+    background-color: chartreuse;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,7 +196,10 @@ main {
 .cats {
     margin: 1rem;
     padding: 0;
-    border-radius: 10px 10px 0 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cat-profile-image {
@@ -238,6 +248,25 @@ main {
 /* Menu section */
 #menu-section {
     background-color: aquamarine;
+    width: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+}
+
+.menu-description {
+    background-color: crimson;
+    margin-top: 10px;
+    padding: 1rem;
+}
+
+.menu-description ul {
+    list-style: none;
+}
+
+.menu-description h4 {
+    margin-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 /* Footer */
