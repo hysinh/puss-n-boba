@@ -162,7 +162,6 @@ main {
     align-items: stretch;
     justify-content: center;
     padding-bottom: 10px;
-    background-color: chartreuse;
 }
 
 
@@ -234,6 +233,11 @@ main {
 
 .cat-description > h4 {
     padding-bottom: .75rem;
+}
+
+/* Menu section */
+#menu-section {
+    background-color: aquamarine;
 }
 
 /* Footer */
