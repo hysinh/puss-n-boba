@@ -172,7 +172,10 @@ main {
 }
 
 /* About Section */
-#about {
+.about-test {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
     margin: 1rem;
 }
 
@@ -190,16 +193,17 @@ main {
     padding-bottom: 1rem;
 }
 
-#about-cafe {
-    width: 250px;
+.about-cafe {
+    width: 90%;
     background-color: #b5e2fa;
     margin: 1rem;
-    padding: 10px;
-    border-radius: 10px 10px 0 0 ;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 #about p {
     text-align: center;
+    padding: 1rem;
 }
 
 /* Cat Section */
