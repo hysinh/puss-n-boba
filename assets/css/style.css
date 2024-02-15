@@ -171,16 +171,12 @@ main {
     margin-bottom: 20px;
 }
 
-/* About Section */
-.about-test {
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
+#about {
+    background-color: #a1c181;
 }
 
 #about-container {
-    background-color: coral;
+    background-color: #a1c181;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -207,8 +203,10 @@ main {
 }
 
 /* Cat Section */
+#cats {
+    background-color: #619b8a;
+}
 #cat-container {
-    background-color: chartreuse;
     display: flex;
     flex-direction: column;
     align-items: center;
