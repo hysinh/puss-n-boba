@@ -35,10 +35,6 @@ h3 {
     padding-top: 10px;
 }
 
-p {
-    text-align: center;
-}
-
 .icon {
     color: #619b8a;
     font-size: 200%;
@@ -172,11 +168,15 @@ main {
 }
 
 .header {
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 20px;
 }
 
 /* About Section */
+#about {
+    margin: 1rem;
+}
+
 #about-container {
     background-color: coral;
     display: flex;
@@ -185,7 +185,6 @@ main {
     justify-content: center;
     padding-bottom: 10px;
 }
-
 
 #about-container h4 {
     text-align: center;
@@ -199,6 +198,11 @@ main {
     padding: 10px;
     border-radius: 10px 10px 0 0 ;
 }
+
+#about p {
+    text-align: center;
+}
+
 /* Cat Section */
 #cat-container {
     background-color: chartreuse;
@@ -332,7 +336,7 @@ footer p {
         display: block;
         position: relative;
         width: fit-content;
-        padding-right: .75rem;
+        padding-right: 1rem;
     }
 
     #navbar {
