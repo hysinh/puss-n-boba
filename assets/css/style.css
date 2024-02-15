@@ -124,10 +124,6 @@ main {
     max-height: 100vh; */
 }
 
-#main-center {
-    margin-bottom: 1rem;
-}
-
 /* Hero Image */
 #hero {
     padding: 0;
@@ -166,8 +162,8 @@ main {
     text-align: center;
 }
 
-.header {
-    margin-top: 2rem;
+.section-title {
+    margin-top: 0;
     margin-bottom: 20px;
 }
 
@@ -206,6 +202,7 @@ main {
 #cats {
     background-color: #619b8a;
 }
+
 #cat-container {
     display: flex;
     flex-direction: column;
@@ -268,10 +265,13 @@ main {
 }
 
 /* Menu section */
+#menu {
+    background-color: #fcca46;
+}
+
 #menu-container {
-    background-color: aquamarine;
+    background-color: blueviolet;
     width: 100%;
-    margin-bottom: 1rem;
     padding-bottom: 1rem;
     display: block;
     align-self: center;
@@ -359,8 +359,6 @@ footer p {
     /* Main section */
     main {
         margin-top: 65px;
-        /* test section */
-        
     }
 
     #main-center {
