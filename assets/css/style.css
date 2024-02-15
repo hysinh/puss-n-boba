@@ -51,9 +51,9 @@ p {
 header {
     background-color: #f7a072;
     padding: 0 .75rem;
-    /* Fixes Header to top 
+    /* Fixes Header to top */
     position: fixed;
-    z-index: 99;*/
+    z-index: 99;
     width: 100dvw;
     /* Nav togglebox */
     display: flex;
@@ -112,7 +112,7 @@ main {
     padding: 0;
     /* Makes main element take up any surplus space and push the footer to the bottom of the page */
     flex: 1 0 auto;
-    margin-top: 37px;
+    margin-top: 47px;
 
 }
 
@@ -177,7 +177,7 @@ main {
 }
 
 /* About Section */
-#about {
+#about-container {
     background-color: coral;
     display: flex;
     flex-direction: column;
@@ -187,7 +187,7 @@ main {
 }
 
 
-#about h4 {
+#about-container h4 {
     text-align: center;
     padding-bottom: 1rem;
 }
@@ -200,7 +200,7 @@ main {
     border-radius: 10px 10px 0 0 ;
 }
 /* Cat Section */
-#cat-section {
+#cat-container {
     background-color: chartreuse;
     display: flex;
     flex-direction: column;
@@ -263,12 +263,13 @@ main {
 }
 
 /* Menu section */
-#menu-section {
+#menu-container {
     background-color: aquamarine;
-    width: 250px;
+    width: 100%;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     display: block;
+    align-self: center;
 }
 
 .menu-description {
@@ -371,14 +372,14 @@ footer p {
     }
 
     /* About section */ 
-    #about {
+    #about-container {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
     }
 
     /* Cat section */
-    #cat-section {
+    #cat-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;        
@@ -433,6 +434,4 @@ footer p {
     #main-center {
         width: 70%;
     }
-
-    .cats {}
 }
