@@ -275,6 +275,7 @@ main {
 .menu-description {
     background-color: crimson;
     padding: 1rem;
+    margin: 1rem;
 }
 
 .menu-description ul {
