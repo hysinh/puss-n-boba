@@ -109,21 +109,21 @@ main {
 }
 
 .hero-image-about {
-    height: 550px;
+    height: 425px;
     width: 100%;
-    background: url(../images/home-hero_550x367.webp) no-repeat center;
+    background: url(../images/about-hero.webp) no-repeat center/contain;
 }
 
 .hero-image-cats {
-    height: 550px;
+    height: 350px;
     width: 100%;
     background: url(../images/home-hero_550x367.webp) no-repeat center;
 }
 
 .hero-image-menu {
-    height: 550px;
+    height: 425px;
     width: 100%;
-    background: url(../images/home-hero_550x367.webp) no-repeat center;
+    background: url(../images/menu-hero.webp) no-repeat center/contain;
 }
 
 .hero-image-contact {
@@ -177,7 +177,7 @@ main {
     padding-bottom: 20px;
 }
 
-/* About sections */
+/* Main page - About sections */
 #about-cats-container {
     background-color: #91f1ef;
     display: block;
@@ -215,7 +215,7 @@ main {
     color: inherit;
 }
 
- /* About Menu Sections */
+ /* Main page - Menu Sections */
 #about-menu-container {
     background-color: #a4fb9f;
     display: block;
@@ -224,13 +224,32 @@ main {
     padding-top: 10px;
 }
 
- /* About Contact Section */
+ /* Main page - Contact Section */
  #about-contact-container {
     background-color: #ffd5df;
     display: block;
     background: url(../images/contact-section_600x600.webp) no-repeat bottom/contain, #ffd5df;
     height: 520px;
     padding-top: 10px;
+}
+
+
+/* About Page */
+.green {
+    background-color: #7bf1a7;
+}
+
+#about-container {
+    display: block;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+#about-menu-container {
+
+}
+
+.about-cafe p {
 }
 
 
