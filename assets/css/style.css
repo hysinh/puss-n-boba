@@ -109,25 +109,25 @@ main {
 }
 
 .hero-image-about {
-    height: 425px;
+    height: 420px;
     width: 100%;
     background: url(../images/about-hero.webp) no-repeat center/contain;
 }
 
 .hero-image-cats {
-    height: 350px;
+    height: 420px;
     width: 100%;
     background: url(../images/home-hero_550x367.webp) no-repeat center;
 }
 
 .hero-image-menu {
-    height: 425px;
+    height: 420px;
     width: 100%;
     background: url(../images/menu-hero.webp) no-repeat center/contain;
 }
 
 .hero-image-contact {
-    height: 550px;
+    height: 420px;
     width: 100%;
     background: url(../images/home-hero_550x367.webp) no-repeat center;
 }
@@ -161,7 +161,7 @@ main {
 }
 
 /* Main content section */
-#main-center {
+.main-center {
     background-color: blueviolet;
     width: 100%;
     display: flex;
@@ -191,7 +191,7 @@ main {
     margin: 10px;
 }
 
-#about p {
+#main-about p {
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -210,7 +210,7 @@ main {
     font-size: smaller;
 }
 
-#about a {
+#main-about a {
     text-decoration: none;
     color: inherit;
 }
@@ -235,24 +235,62 @@ main {
 
 
 /* About Page */
-.green {
-    background-color: #7bf1a7;
-}
-
-#about-container {
+#about-container1 {
     display: block;
     padding-top: 10px;
     margin: 10px;
 }
 
-#about-menu-container {
-
+#about-container1 p {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
 }
 
-.about-cafe p {
+.green {
+    background-color: #7bf1a7;
 }
 
 
+/* Menu Page */
+#menu-container, #menu-container2 {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: block;
+    align-self: center;
+}
+
+#menu-container {
+    background-color: #90f1ef;
+}
+
+#menu-container2 {
+    background-color: #ffffff;
+}
+
+#menu-container ul {
+    text-align: center;
+    padding: 0;
+    margin: 1rem;
+    list-style: none;
+}
+
+#menu-container2 ul {
+    text-align: center;
+    padding: 0;
+    margin: 1rem;
+    list-style: none;
+}
+
+.menu-description {
+    width: 90%;
+    margin: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}
 
 /* Cat Section */
 #cats {
@@ -321,32 +359,6 @@ main {
 }
 
 /* Menu section */
-#menu {
-    background-color: #fcca46;
-}
-
-#menu-container {
-    background-color: #ff8400;
-    width: 100%;
-    padding-bottom: 1rem;
-    display: block;
-    align-self: center;
-}
-
-.menu-description {
-    background-color: crimson;
-    padding: 1rem;
-    margin: 1rem;
-}
-
-.menu-description ul {
-    list-style: none;
-}
-
-.menu-description h4 {
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-}
 
 /* Footer */
 footer {
@@ -416,7 +428,7 @@ footer p {
         margin-top: 65px;
     }
 
-    #main-center {
+    .main-center {
         width: 85%;
         display: block;
         margin-left: auto;
