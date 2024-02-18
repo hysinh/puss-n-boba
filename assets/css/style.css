@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,600;0,900;1,400;1,600&family=Urbanist:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,400;1,600&family=Protest+Strike&display=swap');
 
 /* Widlcard selector to override default styles of browser */
 /* Code from Love Running walkthrough project */
@@ -14,20 +14,9 @@ body {
     display: flex;
     flex-direction: column;
     /* generic styles */
-    color: #233d4d;
+    color: #262626;
     font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
-}
-
-h1, h2, h3, h4 {
-    /*font-family: "Bebas Neue", sans-serif;*/
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #233d4d;
 }
 
 h3 {
@@ -35,17 +24,10 @@ h3 {
     padding-top: 10px;
 }
 
-.icon {
-    color: #619b8a;
-    font-size: 200%;
-    /* makes it float in the center */ 
-    position: relative;
-    left: 43%;
-}
 
 /* Header */
 header {
-    background-color: #f7a072;
+    background-color: #ffffff;
     padding: 0 .75rem;
     /* Fixes Header to top */
     position: fixed;
@@ -63,10 +45,9 @@ header a {
 }
 
 #navbar {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 0;
     list-style-type: none;
-    background-color:#f7a072;
     margin-top: 10px;
 }
 
@@ -75,15 +56,15 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #233d4d;
+    border-bottom: 1px solid #262626;
 }
 
 /* Navbar styles with dropdown with hamburger toggle */
 nav {
     position: absolute;
-    background-color: #f7a072;
+    background-color: #ffffff;
     width: 100%;
-    padding: 2px 1rem;
+    padding: 0 1rem;
     left: 0;
     display: none;
     top: 100%;
@@ -134,7 +115,7 @@ main {
 .hero-image {
     height: 550px;
     width: 100%;
-    background: url(../images/cat-cafe-boba-tea_1598x600px.webp) no-repeat center center;
+    background: url(../images/home-hero_550x367.webp) no-repeat center;
 }
 
 #overlay-text {
@@ -151,7 +132,7 @@ main {
 }
 
 #overlay-text h2 {
-    color: #eddea4;
+    color: #ff8400;
 }
 
 #overlay-text p {
