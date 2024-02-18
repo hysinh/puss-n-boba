@@ -150,31 +150,34 @@ main {
 #about-container {
     background-color: #91f1ef;
     display: block;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 10rem;
+    background: url(../images/cat-section_600x600.webp) no-repeat center/contain, #40f1ee;
+    height: 500px;
 }
 
-#about-container h4 {
-    text-align: center;
-    padding-bottom: 1rem;
+.main-description {
+    padding: 1rem;
 }
 
 .about-cafe {
     width: 90%;
     margin: 1rem;
     padding-bottom: 10px;
-    border-radius: 10px;
+    padding-top:20px;
 }
 
 #about p {
     text-align: center;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .button-orange {
     background-color: #ff8500;
     width: 125px;
+    padding: .5rem;
+    margin: auto;
+    text-align: center;
 }
 
 /* Cat Section */
