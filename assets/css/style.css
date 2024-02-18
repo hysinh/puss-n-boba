@@ -117,7 +117,7 @@ main {
 .hero-image-cats {
     height: 420px;
     width: 100%;
-    background: url(../images/home-hero_550x367.webp) no-repeat center;
+    background: url(../images/cats-hero.webp) no-repeat center/contain;
 }
 
 .hero-image-menu {
@@ -144,6 +144,10 @@ main {
 }
 
 #overlay-text h2 {
+    color: #ff8400;
+}
+
+#overlay-text-cats h2 {
     color: #ff8400;
 }
 
@@ -295,6 +299,17 @@ main {
 /* Cat Section */
 #cats {
     background-color: #619b8a;
+}
+
+#overlay-text-cats {
+    font-size: 130%;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+    padding: 40px 20px 10px 20px;
+    border-radius: 15px;
 }
 
 #cat-container {
