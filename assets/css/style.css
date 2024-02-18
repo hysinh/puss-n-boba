@@ -151,8 +151,8 @@ main {
     background-color: #91f1ef;
     display: block;
     padding-bottom: 10rem;
-    background: url(../images/cat-section_600x600.webp) no-repeat center/contain, #40f1ee;
-    height: 500px;
+    background: url(../images/cat-section_600x600.webp) no-repeat bottom/contain, #40f1ee;
+    height: 400px;
 }
 
 .main-description {
@@ -178,6 +178,15 @@ main {
     padding: .5rem;
     margin: auto;
     text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: smaller;
+}
+
+#about a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Cat Section */
