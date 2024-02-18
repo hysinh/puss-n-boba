@@ -102,7 +102,31 @@ main {
     position: relative;
 }
 
-.hero-image {
+.hero-image-main {
+    height: 550px;
+    width: 100%;
+    background: url(../images/home-hero_550x367.webp) no-repeat center;
+}
+
+.hero-image-about {
+    height: 550px;
+    width: 100%;
+    background: url(../images/home-hero_550x367.webp) no-repeat center;
+}
+
+.hero-image-cats {
+    height: 550px;
+    width: 100%;
+    background: url(../images/home-hero_550x367.webp) no-repeat center;
+}
+
+.hero-image-menu {
+    height: 550px;
+    width: 100%;
+    background: url(../images/home-hero_550x367.webp) no-repeat center;
+}
+
+.hero-image-contact {
     height: 550px;
     width: 100%;
     background: url(../images/home-hero_550x367.webp) no-repeat center;
@@ -148,19 +172,23 @@ main {
     max-height: 100vh; */
 }
 
+.main-description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* About sections */
 #about-cats-container {
     background-color: #91f1ef;
     display: block;
     background: url(../images/cat-section_600x600.webp) no-repeat bottom/contain, #40f1ee;
-    height: 400px;
-    padding: 0;
+    height: 450px;
+    padding-top: 10px;
 }
 
 .section-descriptions {
     width: 90%;
-    margin: 1rem;
-    padding-top: 20px;
+    margin: 10px;
 }
 
 #about p {
@@ -193,7 +221,7 @@ main {
     display: block;
     background: url(../images/menu-section_600x600.webp) no-repeat bottom/contain, #a4fb9f;
     height: 420px;
-    padding: 0;
+    padding-top: 10px;
 }
 
  /* About Contact Section */
@@ -202,7 +230,7 @@ main {
     display: block;
     background: url(../images/contact-section_600x600.webp) no-repeat bottom/contain, #ffd5df;
     height: 520px;
-    padding: 0;
+    padding-top: 10px;
 }
 
 
