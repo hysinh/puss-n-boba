@@ -96,6 +96,10 @@ main {
 }
 
 /* Hero Image */
+img {
+    width: 100%;
+    height: 100%;
+}
 #hero {
     padding: 0;
     margin: 0;
@@ -103,33 +107,23 @@ main {
 }
 
 .hero-image-main {
-    height: 550px;
-    width: 100%;
-    background: url(../images/home-hero_550x367.webp) no-repeat center;
+    background: url(../images/home-hero.webp) no-repeat center/contain;
 }
 
 .hero-image-about {
-    height: 420px;
-    width: 100%;
     background: url(../images/about-hero.webp) no-repeat center/contain;
 }
 
 .hero-image-cats {
-    height: 420px;
-    width: 100%;
     background: url(../images/cats-hero.webp) no-repeat center/contain;
 }
 
 .hero-image-menu {
-    height: 420px;
-    width: 100%;
     background: url(../images/menu-hero.webp) no-repeat center/contain;
 }
 
 .hero-image-contact {
-    height: 420px;
-    width: 100%;
-    background: url(../images/home-hero_550x367.webp) no-repeat center;
+    background: url(../images/home-hero.webp) no-repeat center/contain;
 }
 
 #overlay-text {
@@ -137,7 +131,7 @@ main {
     width: 250px;
     height: 200px;
     position: absolute;
-    bottom: 360px;
+    bottom: 260px;
     right: 10px;
     padding: 40px 20px 10px 20px;
     border-radius: 15px;
@@ -401,6 +395,17 @@ footer p {
     font-size: 60%;
     padding-top: 1rem;
     font-weight: bold;
+}
+
+/* Media query for mobile devices and later (375px and up) */
+@media screen and (min-width: 375px) {
+    /* Hero Image */
+    #overlay-text {
+        bottom: 380px;
+        right: 20px;
+
+    }
+    
 }
 
 /* Media query for tablets and later (768px and up) */
