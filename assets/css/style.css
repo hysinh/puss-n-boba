@@ -368,8 +368,6 @@ img {
     padding-bottom: .75rem;
 }
 
-/* Menu section */
-
 /* Footer */
 footer {
     background-color: cornflowerblue;
@@ -405,7 +403,13 @@ footer p {
     .overlay-text {
         bottom: 400px;
         right: 30px;
+
+    .section-descriptions {
+        width: 350px;
+    }
+
 }
+
 
 /* Media query for tablets and later (768px and up) */
 @media screen and (min-width: 768px) {
@@ -448,16 +452,23 @@ footer p {
         height: 100%;
     }
 
-    #hero {
+    .hero-container {
+        background-color: #cbd9d9;
         display: flex;
         flex-direction: row;
-        width: 70%;
+        align-items: center;
+        flex-basis: 100%;
     }
 
     .overlay-text {
+        background-color: none;
         position: static;
         bottom: 50px;
         right: 10px;
+    }
+
+    .hero-image-main, .overlay-text {
+        width: 50%;
     }
 
     /* Main section */
@@ -466,17 +477,45 @@ footer p {
     }
 
     .main-center {
-        width: 85%;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
-    /* Hero section */
-    #overlay-text {
+    #about-cats-container {
+        display: flex;
+        height: 280px;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        background: url(../images/cat-section_600x600.webp) no-repeat left bottom/contain, #40f1ee;
+    }
+
+    .empty-box {
         width: 350px;
-        bottom: 275px;
-        left: 75px;
+    }
+
+    .section-descriptions {
+        width: 450px;
+    }
+
+    #about-menu-container {
+        display: flex;
+        height: 280px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: url(../images/menu-section_600x600.webp) no-repeat right bottom/contain, #a4fb9f;
+    }
+
+    #about-contact-container {
+        display: flex;
+        height: 280px;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        background: url(../images/contact-section_600x600.webp) no-repeat left bottom/contain, #ffd7e2;
     }
 
     /* About section */ 
@@ -539,7 +578,7 @@ footer p {
     }
 
     /* Cat section */
-    #main-center {
+    .main-center {
         width: 70%;
     }
 }
