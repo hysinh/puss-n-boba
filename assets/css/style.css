@@ -285,7 +285,6 @@ img {
 
 /* Menu Page */
 #menu-container, #menu-container2 {
-    display: block;
     padding-top: 5px;
     padding-bottom: 5px;
     width: 100%;
@@ -317,9 +316,8 @@ img {
 
 .menu-description {
     width: 90%;
-    margin: 10px;
     padding: 1rem;
-    margin: 1rem;
+    margin: .5rem;
 }
 
 /* Cat Section */
@@ -359,8 +357,6 @@ img {
 .cat-profile-image {
     width: 250px;
     height: 250px;
-    border-radius: 50%;
-    border: #619b8a solid 7px;
 }
 
 #cat1 {
@@ -391,12 +387,8 @@ img {
     padding: 1rem;
 }
 
-.cat-description h4 {
+.cat-description h3 {
     text-align: center;
-}
-
-.cat-description > h4 {
-    padding-bottom: .75rem;
 }
 
 /* Footer */
@@ -519,6 +511,18 @@ footer p {
         background-color: #42f1ef;
     }
 
+    .color-lightaqua {
+        background-color: #91f1ef;
+    }
+
+    .color-yellow {
+        background-color: #ffef9f;
+    }
+
+    .color-pink {
+        background-color: #fed6e1;
+    }
+
     .overlay-text-main {
         position: static;
         bottom: 50px;
@@ -611,7 +615,7 @@ footer p {
 
     }
 
-    /* Cat section */
+    /* Cat page */
     #cat-container {
         display: flex;
         flex-direction: row;
@@ -626,17 +630,25 @@ footer p {
         display: inline;
     }
 
-    .cat-profile-image {
-        border-radius:  50%;
+    .cat-description h3 {
+        text-align: left;
+    }
+
+    .cat-description p {
+        text-align: left;
     }
 
     /* Menu section */
-    #menu-section {
-        width: 100%;
+
+    #menu-container, #menu-container2 {
+        margin-top: 0;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;        
         justify-content: center;
+    }
+
+    #menu-container2 {
+        background-color: #ffef9f;
     }
 
     .menu-description {
