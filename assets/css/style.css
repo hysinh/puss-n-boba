@@ -515,38 +515,34 @@ footer p {
         background-color: #7bf1a7;
     }
 
+    .color-blue {
+        background-color: #42f1ef;
+    }
+
     .overlay-text-main {
         position: static;
         bottom: 50px;
-        right: 10px;
+        right: 0;
     }
     
     .overlay-text-about {
-        bottom: 200px;
+        height: 250px;
+        bottom: 150px;
+        right: 0;
     }
     
     .overlay-text-menu {
-        background-color: rgb(246, 250, 246, .6);
-        font-size: 130%;
-        width: 250px;
-        height: 260px;
-        position: absolute;
-        bottom: 70px;
-        right: 10px;
-        padding: 5px 20px 5px 20px;
+        height: 210px;
+        bottom: 150px;
+        right: 0;
     }
     
     .overlay-text-cats {
-        font-size: 130%;
-        width: 250px;
-        height: 75px;
-        position: absolute;
-        bottom: 200px;
+        bottom: 250px;
         right: 10px;
-        padding: 5px 20px 5px 20px;
     }
 
-    .hero-image-main, .hero-image-about, .hero-image-menu, .hero-image-cats, .hero-image-contact, .overlay-text-main, .overlay-text-cats, .overlay-text-about, .overlay-text-menu, {
+    .hero-image-main, .hero-image-about, .hero-image-menu, .hero-image-cats, .hero-image-contact, .overlay-text-main, .overlay-text-cats, .overlay-text-about, .overlay-text-menu {
         width: 50%;
     }
 
