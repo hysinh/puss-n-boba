@@ -26,6 +26,10 @@ h3 {
     padding-top: 10px;
 }
 
+.center {
+    text-align: center;
+}
+
 
 /* Header */
 header {
@@ -163,7 +167,6 @@ img {
 }
 
 .main-description {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     
@@ -403,9 +406,12 @@ footer p {
     .overlay-text {
         bottom: 400px;
         right: 30px;
+    }
 
+    /* About Sections */
     .section-descriptions {
         width: 350px;
+
     }
 
 }
@@ -453,21 +459,27 @@ footer p {
     }
 
     .hero-container {
-        background-color: #cbd9d9;
         display: flex;
         flex-direction: row;
         align-items: center;
         flex-basis: 100%;
     }
 
+    .color-paleblue {
+        background-color: #cbd9d9;
+    }
+
+    .color-green {
+        background-color: #7bf1a7;
+    }
+
     .overlay-text {
-        background-color: none;
         position: static;
         bottom: 50px;
         right: 10px;
     }
 
-    .hero-image-main, .overlay-text {
+    .hero-image-main, .overlay-text, .hero-image-about, .hero-image-menu, .hero-image-cats, .hero-image-contact {
         width: 50%;
     }
 
@@ -525,6 +537,17 @@ footer p {
         flex-wrap: nowrap;
     }
 
+    #about-container1 {
+        display: block;
+        padding-top: 10px;
+        margin: 10px;
+    }
+
+    .section-descriptions-about {
+        width: 750px;
+
+    }
+
     /* Cat section */
     #cat-container {
         display: flex;
@@ -558,18 +581,13 @@ footer p {
         margin: 1rem;
     }
 
+}
+
 /* larger devices - laptops, desktops, and up (992px and up)  */
 @media screen and (min-width: 992px) {
     /* Header */
     #navbar a:hover {
         border-bottom: 1px solid #233d4d;
-    }
-
-    /* Hero section */
-    #overlay-text {
-        width: 450px;
-        bottom: 275px;
-        left: 250px;
     }
 
     /* About section */
