@@ -322,10 +322,6 @@ img {
 }
 
 /* Cat Section */
-#cats {
-    background-color: #619b8a;
-}
-
 #overlay-text-cats {
     font-size: 130%;
     width: 250px;
@@ -500,7 +496,7 @@ footer p {
     }
 
     .color-paleblue {
-        background-color: #cbd9d9;
+        background-color: #b2dff7;
     }
 
     .color-green {
