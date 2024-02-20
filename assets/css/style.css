@@ -320,7 +320,6 @@ img {
     padding-bottom: 5px;
     width: 100%;
     display: block;
-    align-self: center;
 }
 
 #menu-container {
@@ -345,8 +344,8 @@ img {
     list-style: none;
 }
 
-.menu-description {
-    width: 90%;
+.menu-description, .menu-description2 {
+    width: 100%;
     padding: 1rem;
     margin: .5rem;
 }
@@ -714,8 +713,12 @@ footer p {
     }
 
     .menu-description {
-        width: 175px;
-        margin: 1rem;
+        width: 225px;
+        margin: 10px;
+    }
+
+    .menu-description li {
+        padding-bottom: 5px;
     }
 
     /* Contact Page */
@@ -804,8 +807,12 @@ footer p {
         margin: auto;
     }
 
-    .main-description h3 {
+    .hero-container h2 {
         font-size: 200%;
+    }
+    
+    .main-description h3 {
+        font-size: 180%;
     }
 
     #about-cats-container, #about-menu-container, #about-contact-container {
@@ -819,7 +826,7 @@ footer p {
     }
 
     .section-descriptions h3 {
-        font-size: 200%;
+        font-size: 2em;
     }
 
     .section-descriptions p {
@@ -846,10 +853,6 @@ footer p {
         width: 70%;
         margin: auto;
         line-height: 1.5;
-    }
-
-    .main-description {
-        font-size: 180%;
     }
 
     .section-descriptions-about {
