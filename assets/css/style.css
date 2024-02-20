@@ -243,7 +243,6 @@ img {
 
 /* Main page - About sections */
 #about-cats-container {
-    background-color: #91f1ef;
     display: block;
     background: url(../images/cat-section_600x600.webp) no-repeat bottom/contain, #40f1ee;
     height: 450px;
@@ -281,7 +280,6 @@ img {
 
  /* Main page - Menu Sections */
 #about-menu-container {
-    background-color: #a4fb9f;
     display: block;
     background: url(../images/menu-section_600x600.webp) no-repeat bottom/contain, #a4fb9f;
     height: 420px;
@@ -290,7 +288,6 @@ img {
 
  /* Main page - Contact Section */
  #about-contact-container {
-    background-color: #ffd5df;
     display: block;
     background: url(../images/contact-section_600x600.webp) no-repeat bottom/contain, #ffd5df;
     height: 520px;
@@ -752,6 +749,8 @@ footer p {
 
 /* larger devices - laptops, desktops, and up (992px and up)  */
 @media screen and (min-width: 992px) {
+    /* General */
+
     /* Header */
     #navbar a:hover {
         border-bottom: 1px solid #233d4d;
@@ -787,10 +786,10 @@ footer p {
         bottom: 95px;
     }
 
-    /* About section */
+    /* About section
     #about-cafe {
         width: 500px;
-    }
+    } */
 
     /* Cat section */
     .main-center {
@@ -798,9 +797,46 @@ footer p {
         display: block;
     }
 
+    /* Home page */
     .main-description {
         width: 70%;
+        margin: auto;
     }
 
+    .main-description h3 {
+        font-size: 200%;
+    }
 
+    #about-cats-container, #about-menu-container, #about-contact-container {
+        height: 450px;
+    }
+
+    .section-descriptions, .empty-box {
+        height: 270px;
+        width: 450px;
+        margin: 10px;
+    }
+
+    .section-descriptions h3 {
+        font-size: 200%;
+    }
+
+    .section-descriptions p {
+        line-height: 1.5;
+    }
+
+    /* Main page - Cat section */
+    #about-cats-container {
+        background: url(../images/cat-section_600x600.webp) no-repeat 10%, #40f1ee;
+    }
+
+     /* Main page - Menu Sections */
+    #about-menu-container {
+        background: url(../images/menu-section_600x600.webp) no-repeat 90% 100%, #a4fb9f;
+    }
+
+    /* Main page - Contact Section */
+     #about-contact-container {
+        background: url(../images/contact-section_600x600.webp) no-repeat 10%, #ffd5df;
+    }
 }
