@@ -542,6 +542,11 @@ footer p {
 
     }
 
+    /* Cats Page */
+    .cats {
+        width: 250px;
+    }
+
 }
 
 
@@ -695,7 +700,6 @@ footer p {
     }
 
     .cats {
-        width: 250px;
         display: inline;
     }
 
@@ -790,6 +794,11 @@ footer p {
 
     /* Cat section */
     .main-center {
+        width: 100%;
+        display: block;
+    }
+
+    .main-description {
         width: 70%;
     }
 
