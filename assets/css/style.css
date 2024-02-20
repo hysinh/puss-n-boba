@@ -139,26 +139,31 @@ img {
     margin: 0;
     position: relative;
 }
-/*
+
 .hero-image-main {
-    background: url(../images/home-hero.webp) no-repeat center/contain;
-} */
-/*
+    background: url(../images/home-hero.webp) no-repeat center/cover;
+    height: 425px;
+} 
+
 .hero-image-about {
-    background: url(../images/about-hero.webp) no-repeat center/contain;
-}*/
-/*
+    background: url(../images/about-hero.webp) no-repeat center/cover;
+    height: 425px;
+}
+
 .hero-image-cats {
-    background: url(../images/cats-hero.webp) no-repeat center/contain;
+    background: url(../images/cats-hero.webp) no-repeat center/cover;
+    height: 425px;
 }
 
 .hero-image-menu {
-    background: url(../images/menu-hero.webp) no-repeat center/contain;
+    background: url(../images/menu-hero.webp) no-repeat center/cover;
+    height: 425px;
 }
 
 .hero-image-contact {
-    background: url(../images/home-hero.webp) no-repeat center/contain;
-}*/
+    background: url(../images/home-hero.webp) no-repeat center;
+
+}
 
 .overlay-text-main {
     background-color: rgb(246, 250, 246, .5);
@@ -492,23 +497,43 @@ footer p {
 @media screen and (min-width: 375px) {
 
     /* Hero Image */
+    .hero-image-main {
+        background: url(../images/home-hero.webp) no-repeat top/cover;
+    } 
+    
+    .hero-image-about {
+        background: url(../images/about-hero.webp) no-repeat bottom/cover;
+    }
+    
+    .hero-image-cats {
+        background: url(../images/cats-hero.webp) no-repeat bottom/cover;
+    }
+    
+    .hero-image-menu {
+        background: url(../images/menu-hero.webp) no-repeat bottom/cover;
+    }
+    
+    .hero-image-contact {
+        background: url(../images/home-hero.webp) no-repeat center/contain;
+    }
+
     .overlay-text-main {
-        bottom: 400px;
+        bottom: 270px;
         right: 30px;
     }
 
     .overlay-text-about {
-        bottom: 200px;
+        bottom: 50px;
     }
         
     .overlay-text-menu {
-        bottom: 250px;
+        bottom: 120px;
         right: 80px;
     }
         
     .overlay-text-cats {
-        bottom: 350px;
-        right: 80px;
+        bottom: 250px;
+        right: 50px;
     }    
 
     /* About Sections */
