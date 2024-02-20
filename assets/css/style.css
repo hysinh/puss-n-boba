@@ -161,8 +161,8 @@ img {
 }
 
 .hero-image-contact {
-    background: url(../images/home-hero.webp) no-repeat center;
-
+    background: url(../images/contact-hero.webp) no-repeat bottom/cover;
+    height: 425px;
 }
 
 .overlay-text-main {
@@ -514,7 +514,7 @@ footer p {
     }
     
     .hero-image-contact {
-        background: url(../images/home-hero.webp) no-repeat center/contain;
+        background: url(../images/contact-hero.webp) no-repeat center/contain;
     }
 
     .overlay-text-main {
@@ -768,6 +768,10 @@ footer p {
     
     .hero-image-menu {
         background: url(../images/menu-hero.webp) no-repeat bottom/cover;
+    }
+
+    .hero-image-contact {
+        background: url(../images/contact-hero.webp) no-repeat bottom/cover;
     }
 
     .overlay-text-main {
