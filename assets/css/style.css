@@ -26,10 +26,38 @@ h3 {
     padding-top: 10px;
 }
 
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .center {
     text-align: center;
 }
 
+.color-paleblue {
+    background-color: #b2dff7;
+}
+
+.color-green {
+    background-color: #a4fb9f;
+}
+
+.color-blue {
+    background-color: #42f1ef;
+}
+
+.color-lightaqua {
+    background-color: #91f1ef;
+}
+
+.color-yellow {
+    background-color: #ffef9f;
+}
+
+.color-pink {
+    background-color: #ffd7e2;
+}
 
 /* Header */
 header {
@@ -321,7 +349,7 @@ img {
     margin: .5rem;
 }
 
-/* Cat Section */
+/* Cat page */
 #overlay-text-cats {
     font-size: 130%;
     width: 250px;
@@ -342,7 +370,6 @@ img {
 }
 
 .cats {
-    background-color: aqua;
     margin: 1rem;
     padding: 0;
     display: flex;
@@ -387,6 +414,32 @@ img {
 .cat-description h3 {
     text-align: center;
 }
+
+
+/* Contact Page */
+#contact-container {
+    background-color: #ffd7e2;
+    padding: 10px;
+}
+
+.contact-info {
+    background-color: #ff8400;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+}
+
+.contact-info p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact-form {
+    background-color: burlywood;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 
 /* Footer */
 footer {
@@ -493,30 +546,6 @@ footer p {
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
-
-    .color-paleblue {
-        background-color: #b2dff7;
-    }
-
-    .color-green {
-        background-color: #a4fb9f;
-    }
-
-    .color-blue {
-        background-color: #42f1ef;
-    }
-
-    .color-lightaqua {
-        background-color: #91f1ef;
-    }
-
-    .color-yellow {
-        background-color: #ffef9f;
-    }
-
-    .color-pink {
-        background-color: #fed6e1;
     }
 
     .overlay-text-main {
