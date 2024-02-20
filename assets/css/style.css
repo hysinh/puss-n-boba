@@ -361,27 +361,27 @@ img {
 }
 
 #cat1 {
-    background: url("../images/calico_cat_300x300.webp") no-repeat center;
+    background: url("../images/cat-profiles_cat4_600x600.webp") no-repeat center/contain;
 }
 
 #cat2 {
-    background: url("../images/siamese_cat_300x300.webp") no-repeat center;
+    background: url("../images/cat-profiles_cat6_600x600.webp") no-repeat center/contain;
 }
 
 #cat3 {
-    background: url("../images/orange_cat_300x300.webp") no-repeat center;
+    background: url("../images/cat-profiles_cat3_600x600.webp") no-repeat center/contain;
 }
 
 #cat4 {
-    background: url("../images/blackwhite_cat_300x300.webp") no-repeat center;
+    background: url("../images/cat-profiles_cat5_600x600.webp") no-repeat center/contain;
 }
 
 #cat5 {
-    background: url("../images/Lady_300x300.webp") no-repeat center;
+    background: url("../images/cat-profiles_cat2_600x600.webp") no-repeat center/contain;
 }
 
 #cat6 {
-    background: url("../images/whitegrey_cat_300x300.webp") no-repeat center;
+    background: url("../images/cat-profiles_cat1_600x600.webp") no-repeat center/contain;
 }
 
 .cat-description {
@@ -504,7 +504,7 @@ footer p {
     }
 
     .color-green {
-        background-color: #7bf1a7;
+        background-color: #a4fb9f;
     }
 
     .color-blue {
