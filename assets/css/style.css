@@ -440,6 +440,24 @@ img {
     padding-right: 5px;
 }
 
+input[type=text], input[type=email] {
+    width: 90%;
+    margin:10px 0; 
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+  }
+
+button[type=submit] {
+    border: 0;
+}
+
+#contact {
+    padding: 1rem;
+}
+
+.contact-message {
+    height: 150px;
+}
 
 /* Footer */
 footer {
