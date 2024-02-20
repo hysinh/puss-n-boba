@@ -864,4 +864,11 @@ footer p {
     .section-descriptions-about h3 {
         font-size: 180%;
     }
+
+    .hero-image-contact {
+        border-radius: 50%;
+        height: 350px;
+        width: 350px;
+        border: #ffffff solid 3px;
+    }
 }
