@@ -103,6 +103,7 @@ main {
 img {
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 #hero {
@@ -110,15 +111,15 @@ img {
     margin: 0;
     position: relative;
 }
-
+/*
 .hero-image-main {
     background: url(../images/home-hero.webp) no-repeat center/contain;
-}
-
+} */
+/*
 .hero-image-about {
     background: url(../images/about-hero.webp) no-repeat center/contain;
-}
-
+}*/
+/*
 .hero-image-cats {
     background: url(../images/cats-hero.webp) no-repeat center/contain;
 }
@@ -129,7 +130,7 @@ img {
 
 .hero-image-contact {
     background: url(../images/home-hero.webp) no-repeat center/contain;
-}
+}*/
 
 .overlay-text-main {
     background-color: rgb(246, 250, 246, .5);
@@ -496,7 +497,6 @@ footer p {
         display: flex;
         flex-direction: row;
         align-items: center;
-        flex-basis: 100%;
     }
 
     .color-paleblue {
@@ -629,14 +629,14 @@ footer p {
         width: 250px;
         display: inline;
     }
-
+/*
     .cat-description h3 {
         text-align: left;
     }
 
     .cat-description p {
         text-align: left;
-    }
+    }*/
 
     /* Menu section */
 
