@@ -753,6 +753,32 @@ footer p {
         border-bottom: 1px solid #233d4d;
     }
 
+    /* Hero sections */
+    .hero-image-main {
+        background: url(../images/home-hero.webp) no-repeat center/cover;
+    } 
+    
+    .hero-image-about {
+        background: url(../images/about-hero.webp) no-repeat bottom/cover;
+    }
+    
+    .hero-image-cats {
+        background: url(../images/cats-hero.webp) no-repeat bottom/cover;
+    }
+    
+    .hero-image-menu {
+        background: url(../images/menu-hero.webp) no-repeat bottom/cover;
+    }
+
+    .overlay-text-main {
+        bottom: 270px;
+        right: 30px;
+    }
+
+    .overlay-text-about {
+        bottom: 95px;
+    }
+
     /* About section */
     #about-cafe {
         width: 500px;
@@ -762,4 +788,6 @@ footer p {
     .main-center {
         width: 70%;
     }
+
+
 }
