@@ -751,6 +751,7 @@ footer p {
 @media screen and (min-width: 992px) {
     /* General */
 
+
     /* Header */
     #navbar a:hover {
         border-bottom: 1px solid #233d4d;
@@ -836,7 +837,28 @@ footer p {
     }
 
     /* Main page - Contact Section */
-     #about-contact-container {
+    #about-contact-container {
         background: url(../images/contact-section_600x600.webp) no-repeat 10%, #ffd5df;
+    }
+
+    /* About page */
+    .center-description {
+        width: 70%;
+        margin: auto;
+        line-height: 1.5;
+    }
+
+    .main-description {
+        font-size: 180%;
+    }
+
+    .section-descriptions-about {
+        margin: auto;
+        width: 70%;
+        padding-bottom: 2rem;
+    }
+
+    .section-descriptions-about h3 {
+        font-size: 180%;
     }
 }
