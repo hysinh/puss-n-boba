@@ -141,12 +141,12 @@ img {
 }
 
 .hero-image-main {
-    background: url(../images/home-hero.webp) no-repeat center/cover;
+    background: url(../images/home-hero_lg.webp) no-repeat center/cover;
     height: 425px;
 } 
 
 .hero-image-about {
-    background: url(../images/about-hero.webp) no-repeat center/cover;
+    background: url(../images/about-hero_lg.webp) no-repeat center/cover;
     height: 425px;
 }
 
@@ -156,7 +156,7 @@ img {
 }
 
 .hero-image-menu {
-    background: url(../images/menu-hero.webp) no-repeat center/cover;
+    background: url(../images/menu-hero_lg.webp) no-repeat center/cover;
     height: 425px;
 }
 
@@ -494,11 +494,11 @@ footer p {
 
     /* Hero Image */
     .hero-image-main {
-        background: url(../images/home-hero.webp) no-repeat top/cover;
+        background: url(../images/home-hero_lg.webp) no-repeat center/cover;
     } 
     
     .hero-image-about {
-        background: url(../images/about-hero.webp) no-repeat bottom/cover;
+        background: url(../images/about-hero_lg.webp) no-repeat bottom/cover;
     }
     
     .hero-image-cats {
@@ -506,7 +506,7 @@ footer p {
     }
     
     .hero-image-menu {
-        background: url(../images/menu-hero.webp) no-repeat bottom/cover;
+        background: url(../images/menu-hero_lg.webp) no-repeat bottom/cover;
     }
     
     .hero-image-contact {
@@ -770,11 +770,11 @@ footer p {
 
     /* Hero sections */
     .hero-image-main {
-        background: url(../images/home-hero.webp) no-repeat center/cover;
+        background: url(../images/home-hero_lg.webp) no-repeat center/cover;
     } 
     
     .hero-image-about {
-        background: url(../images/about-hero.webp) no-repeat bottom/cover;
+        background: url(../images/about-hero_lg.webp) no-repeat bottom/cover;
     }
     
     .hero-image-cats {
@@ -782,7 +782,7 @@ footer p {
     }
     
     .hero-image-menu {
-        background: url(../images/menu-hero.webp) no-repeat bottom/cover;
+        background: url(../images/menu-hero_lg.webp) no-repeat bottom/cover;
     }
 
     .hero-image-contact {
