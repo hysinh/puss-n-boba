@@ -346,8 +346,8 @@ img {
 
 .menu-description, .menu-description2 {
     width: 100%;
-    padding: 1rem;
-    margin: .5rem;
+    padding: 1rem 0;
+    margin: .5rem 0;
 }
 
 /* Cat page */
