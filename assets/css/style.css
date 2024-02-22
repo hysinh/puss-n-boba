@@ -761,7 +761,9 @@ footer p {
 /* larger devices - laptops, desktops, and up (992px and up)  */
 @media screen and (min-width: 992px) {
     /* General */
-
+    h3 {
+        font-size: 180%;
+    }
 
     /* Header */
     #navbar a:hover {
@@ -819,10 +821,6 @@ footer p {
         font-size: 200%;
     }
     
-    .main-description h3 {
-        font-size: 180%;
-    }
-
     #about-cats-container, #about-menu-container, #about-contact-container {
         height: 450px;
     }
