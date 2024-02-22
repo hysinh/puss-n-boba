@@ -33,20 +33,107 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
   - Mobile Wireframe - [Screenshot](screenshot for mobile)
 
 ## Features
-- ### Main Navigation Bar
-  Hamburger - responsive design
-- ### Main page with three sections
+- ### Navigation Bar
+  [INSERT IMAGE OF NAV BAR]
+  <br>
+  <br>
+  The Navigation Bar is featured on all five pages of the website. The full responsive navigation bar includes links to the Logo, About page, Menu Page, Our Cats page, and Contact page. Each navigation bar is identical and allows for easy navigation of the user.
+  <br>
+  <br>
+  The Navigation Bar allows for easy navigation from page to page across all devices. The Navigation Bar allows easy navigation without the user having to revert back to the previous page using the “back” button.
+
+- ### Home page with three sections
   1. #### Hero section
-     imagery creates excitement and interest in having boba with cats
+     The Home page features a photograph of the cafe with a customer sitting with a cat as well as enjoying a boba tea. The photograph allows the user to see exactly what the venue looks like and what the atmosphere of Puss-n-Boba is like with both the Boba tea offerings as well as the feline company.
   2. #### Cats section
-     imagery creates excitement and interest in the cats themselves and motivates users to visit the cats
+     The Kitties in the Window section allows the user to see the image of a cute cat and motivates the user to visit the cafe in hopes of interacting with the profiled cats.
+     <br>
+     <br>
+     The “Learn More” button gives the user an opportunity to view and read the profiles of each cat living at the cafe.
+     <br><br>
+     The cat image encourages customers who enjoy petting and spending time with cats to visit the cafe in order to interact with the cats.
   3. #### Boba & Treats section
-     Image and brief copy bring back the main focus of the cafe to the food and drink items available for purchase
+     This section showcases the other main feature of the cafe - Boba Teas and treats. The image in this section is a boba tea so that users know exactly what is the main featured menu item of the cafe and know what the main focus of the cafe is.
+     <br>
+     <br>
+     This section features an “explore” button that directs you to the Menu page and allows the user to view the different boba and menu items at the cafe.
+
   4. #### Contact Us section
      this section highlights the accessibility and location of the Puss-n-Boba cafe
      
-- ### Main Navigation Bar
-  Hamburger - responsive design
+- ### About Page
+  Features the Puss-n-Boba cafe offerings - brief explanation of the three main features of the cafe - cats, boba and Treats, and highlights the potential for using the cafe space for activities such as working/studying/social environment.
+
+- ### Our Cats Page
+  Features brief description of each cat with profile image. Creates interest in the cute resident cats for those who are cat-lovers and helps to draw cat lovers to visit the cafe for a chance to interact with the resident cats
+
+- ### Boba & Treats Menu Page
+  Features list of basic boba and treats offered
+
+- ### Contact Form
+  Features a way for users to send the cafe a message. The form requires the collection of the user's full name and email as well as allows a short message to be sent to the cafe.
+
+- ### Footer
+  The footer section includes links to three relevant social media sites for Puss-n-Boba. The links open to new tabs and allow for easy navigation for the user.
+  <br>
+  <br>
+  The footer encourages the user to interact with Puss-n-Boba in other ways and to stay connected to Puss-n-Boba on social media for the latest events, antics of the cats, and featured Boba teas and treats.
+
+
+
+
+  ## Testing
+
+  ### Validator Testing
+  - #### HTML Testing
+    No errors were returned when passing the official W3C HTML Validator
+    <br>
+    <br>
+    [Insert screenshot]
+  - #### CSS Testing
+    No errors were found when passing through the official W3C CSS Jigsaw validator
+    <br>
+    <br>
+    [Insert screenshot]
+
+  ### Unfixed Bugs
+
+  ## Deployment
+   Describe process to deploy the project to a hosting platform
+
+   The live link can be found here: (https://hysinh.github.io/puss-n-boba/index.html)
+
+  ## Credits
+
+  ### Content
+  - The text for the entire website was writing by myself
+- Instructions on how to implement Lighthouse Chrome Developer Tool was taken from: https://developer.chrome.com/docs/devtools/lighthouse
+- Correct syntax for implementation of how to fit Background Image to a Div using CSS: https://www.geeksforgeeks.org/how-to-fit-background-image-to-div-using-css/
+- W3C CSS Validator: https://jigsaw.w3.org/css-validator/
+- How to Center align a <div> element: https://www.w3schools.com/html/html_div.asp
+- HTML Block and Inline Elements: https://www.w3schools.com/html/html_blocks.asp
+- How to implement and syntax for CSS background-position Property: https://www.w3schools.com/cssref/pr_background-position.php
+- CSS Background Shorthand: https://www.w3schools.com/css/css_background_shorthand.asp
+- CSS Box Model: https://www.w3schools.com/css/css_boxmodel.asp
+- HTML Form Elements - Specifically text area properties: https://www.w3schools.com/html/html_form_elements.asp
+- CSS Forms: https://www.w3schools.com/css/css_form.asp | https://www.w3schools.com/tags/tag_textarea.asp
+- Tutorial on how to Style forms with CSS: https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/
+- How to center a div in a div vertically: https://blog.hubspot.com/website/center-div-css#:~:text=Set%20the%20top%20property%20to,(0%2C%20%2D50%25).
+- A Complete Guide to Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Guidance for CSS Background image - Shrink to fit fixed size div: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Guidance on how to implement and correct syntax for a background-color while also having a background image: https://stackoverflow.com/questions/8195215/css-background-image-on-background-color#:~:text=background%3A,position%20and%20background%2Drepeat%20properties.
+- Correct syntax for letter-spacing property: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+
+
+### Media
+- Boba Tea Image - Freepik
+- Girl holding boba tea drink - Pexels - Frank Minjarez 12608213
+- Laptop in cafe (boba tea is AI modified) - Pexels - lisa Fotios 1833306
+- Boba Tea in glass with slice of cake on plate - Pexels - Charlotte May 5946970
+- Orange tabby cat - Pexels - Monique Laats 736532
+- Black cat - Pexels - Melike 13997897
+- gray cat - Generated by Photoshop Generative AI
+- Girl in cafe with boba and cat - Pexels Tri M Nguyen 12525488
 
 
 
@@ -55,111 +142,3 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
 
 
 
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
