@@ -1,4 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Puss-n-Boba
+
+
+## Introduction
+Welcome to Puss-N-Boba, a (fictional) boba cafe who’s special feature is that we are also a cat cafe for those that love working and socialising in the presence of cats! Puss-N-Boba cafe aims to provide delicious boba and treats as well as a cat-filled environment for those relaxing or working. We provide high-speed internet, loads of power outlets, and comfy and cozy seating that works for those lounging for a relaxing chat with a friend or working away on your latest project or studies.
+
+I wanted this website to showcase the cats that call Puss-N-Boba cafe home as well as our other main feature - Boba and Treats - and the location itself as an ideal place to meet a friend or work or study. To reflect the inviting environment of the cafe, the website also features similar colours and images of the cats and the boba and treats to encourage customers to visit the cafe.
+
+## User Experience
+
+- ### User stories
+    1. User looking for cafe - map
+    2. User looking for cafe location/contact information
+    3. User looking to easily navigate the website
+    4. User looking to find more information about the menu and boba offerings
+    5. User looking to find more about cats that live at Puss-n-boba
+
+
+## Design
+
+- #### Site design 
+  Researching websites for other cafes and coffee shops, I was most drawn to the websites that had a clean and clear aesthetic. I went with a clean colour scheme and focused on the two main features of the cafe: Cats and Boba tea.
+- #### Colour - (insert image of colours scheme)
+  Preferring a clean and bright aesthetic that reflected the cheeryful and pleasant interior of the care, the colors are designed to reflect that clean and modern aesthetic while still be fun and punchy.
+- #### Typography
+  The font family is Montserrat. It was chosen for it's clean look, readability, and variety of weights.
+- #### Wireframes
+  I started by creating the initial website wireframes with pencil and paper. After sketching out what I planned, I started laying out the HTML and basic CSS for the site in a similar way that the Love Running tutorial went.
+  <br>
+  I found this to not be my design style and cumbersome. As a designer, I really needed a more solid game plan for the website and switched to Adobe Photoshop and completed the wireframes designs in Photoshop.
+  - Desktop Wireframe - [Screenshot](insert link to screenshot)
+  - Tablet Wireframe - [Screenshot](screentshot for tablet)
+  - Mobile Wireframe - [Screenshot](screenshot for mobile)
+
+## Features
+- ### Main Navigation Bar
+  Hamburger - responsive design
+- ### Main page with three sections
+  1. #### Hero section
+     imagery creates excitement and interest in having boba with cats
+  2. #### Cats section
+     imagery creates excitement and interest in the cats themselves and motivates users to visit the cats
+  3. #### Boba & Treats section
+     Image and brief copy bring back the main focus of the cafe to the food and drink items available for purchase
+  4. #### Contact Us section
+     this section highlights the accessibility and location of the Puss-n-Boba cafe
+     
+- ### Main Navigation Bar
+  Hamburger - responsive design
+
+
+
+
+
+
+
 
 Welcome USER_NAME,
 
