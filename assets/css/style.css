@@ -808,6 +808,11 @@ footer p {
     } */
 
     /* Cat section */
+    #cat-container {
+        max-width: 992px;
+        margin: auto;
+    }
+
     .main-center {
         width: 100%;
         display: block;
