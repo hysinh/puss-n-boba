@@ -278,7 +278,7 @@ img {
  /* Main page - Menu Sections */
 #about-menu-container {
     display: block;
-    background: url(../images/menu-section_600x600.webp) no-repeat bottom/contain, #a4fb9f;
+    background: url(../images/menu-section_1200x1200.webp) no-repeat bottom/contain, #a4fb9f;
     height: 420px;
     padding-top: 10px;
 }
@@ -287,7 +287,7 @@ img {
  #about-contact-container {
     display: block;
     background: url(../images/contact-section_1200x1200.webp) no-repeat bottom/contain, #ffd5df;
-    height: 520px;
+    height: 535px;
     padding-top: 10px;
 }
 
@@ -527,6 +527,18 @@ footer p {
     }    
 
     /* About Sections */
+    #about-cats-container {
+        height: 480px;
+    }
+
+    #about-menu-container {
+        height: 580px;
+    }
+
+    #about-contact-container {
+        height: 590px;
+    }
+    
     .section-descriptions {
         width: 350px;
     }
@@ -629,10 +641,15 @@ footer p {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
-        background: url(../images/cat-section_1200x1200.webp) no-repeat left bottom/contain, #40f1ee;
+        background-image: none;
     }
 
+    .about-cats-container {
+        background: url(../images/cat-section_1200x1200.webp) no-repeat bottom/contain;
+    }
+    
     .empty-box {
+        height: 270px;
         width: 350px;
     }
 
@@ -646,7 +663,11 @@ footer p {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background: url(../images/menu-section_600x600.webp) no-repeat right bottom/contain, #a4fb9f;
+        background: #a4fb9f;
+    }
+
+    .about-menu-container {
+        background: url(../images/menu-section_1200x1200.webp) no-repeat center/contain;
     }
 
     #about-contact-container {
@@ -655,7 +676,11 @@ footer p {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
-        background: url(../images/contact-section_1200x1200.webp) no-repeat left bottom/contain, #ffd7e2;
+        background: #ffd7e2;
+    }
+
+    .about-contact-container {
+        background: url(../images/contact-section_1200x1200.webp) no-repeat bottom/contain;
     }
 
     /* About section */ 
@@ -814,13 +839,13 @@ footer p {
     }
     
     #about-cats-container, #about-menu-container, #about-contact-container {
-        height: 450px;
+        height: 300px;
     }
 
     .section-descriptions, .empty-box {
-        height: 270px;
+        height: 290px;
         width: 450px;
-        margin: 10px;
+        margin: 0;
     }
 
     .section-descriptions h3 {
@@ -829,21 +854,6 @@ footer p {
 
     .section-descriptions p {
         line-height: 1.5;
-    }
-
-    /* Main page - Cat section */
-    #about-cats-container {
-        background: url(../images/cat-section_1200x1200.webp) no-repeat bottom left/contain, #40f1ee;
-    }
-
-     /* Main page - Menu Sections */
-    #about-menu-container {
-        background: url(../images/menu-section_1200x1200.webp) no-repeat 100% bottom/contain, #a4fb9f;
-    }
-
-    /* Main page - Contact Section */
-    #about-contact-container {
-        background: url(../images/contact-section_1200x1200.webp) no-repeat center left/contain, #ffd5df;
     }
 
     /* About page */
