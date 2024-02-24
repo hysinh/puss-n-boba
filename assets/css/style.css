@@ -260,14 +260,14 @@ img {
 
 .button-orange {
     background-color: #ff8500;
-    width: 125px;
+    width: 150px;
     padding: .5rem;
     margin: auto;
     text-align: center;
     color: #ffffff;
     font-weight: 600;
     letter-spacing: 2px;
-    font-size: smaller;
+    font-size: medium;
 }
 
 #main-about a {
