@@ -6,6 +6,45 @@ Welcome to Puss-N-Boba, a (fictional) boba cafe who’s special feature is that 
 
 I wanted this website to showcase the cats that call Puss-N-Boba cafe home as well as our other main feature - Boba and Treats - and the location itself as an ideal place to meet a friend or work or study. To reflect the inviting environment of the cafe, the website also features similar colours and images of the cats and the boba and treats to encourage customers to visit the cafe.
 
+## CONTENTS  
+  
+* [User Experience)](#user-experience)
+  * [User Stories](#user-stories) 
+* [Design](#design)
+  * [Site Design](#site-design)
+  * [Colour Scheme](#color-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+* [Page Features](#page-features)
+  * [Navbar](#navbar)
+  * [Hero-Image](#hero-image)
+  * [Tagline & Call to Action](#tagline--call-to-action)
+  * [Business Ethos](#business-ethos)
+  * [Menu Page](#menu-page)
+  * [Contact Page](#contact-page)
+  * [Footer](#footer)  
+* [Tablet & Mobile View](#tablet--mobile-view)
+  * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
+  * [Tablet View](#tablet-view-ipad-miniipad-prosurface-pro)
+  * [Mobile View](#mobile-view-iphone-5iphone-seiphone-xriphone-12-pro)
+* [Future Features](#future-features)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries, Technologies & Programs Used](#frameworks-libraries-technologies--programs-used)
+* [Deployment](#deployment)
+  * [How to deploy](#how-to-deploy)
+* [Testing](#testing)
+  * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
+  * [CSS Validation using W3C Validation](#css-validation-using-w3c-validation)
+  * [Lighthouse scores via Chrome Developer Tools](#lighthouse-scores-via-chrome-developer-tools)
+  * [Bugs & Fixes](#bugs--fixes)
+  * [Unsolved Bugs](#unsolved-bugs)
+* [Credits](#credits) 
+
+  
+---   
+
 ## User Experience
 
 - ### User stories
@@ -99,11 +138,32 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
   ### Unfixed Bugs
 
   ## Deployment
-   Describe process to deploy the project to a hosting platform
+   GitHub was used to deploy this website. The following steps were taken:
 
-   The live link can be found here: (https://hysinh.github.io/puss-n-boba/index.html)
+   1. Log into GitHub account.
+   2. Navigate to the project repository: puss-n-boba
+   3. Click on the Settings button on the horizontal navigation across the top portion of the page.
+   4. Navigate to the Pages link under the Code and automation section on the left navigation.
+   5. Under GitHub Pages, go to Build and deployment. Then, under Source, select "Deploy from a branch". 
+   6. Next, under Branch, select "main" and "/root" and then click on the Save button.
+   7. After a few moments, the website will be made live and the link will be made visible at the top of the page. 
 
   ## Credits
+
+    - ### Technologies
+      - #### Languages Used
+        - HTML5
+        - CSS
+
+      - #### Technologies & Programs Used
+        - GitHub - used to save and store all the files for this website
+        - Git - provided the version control
+        - Adobe Photoshop 2024 - used to create wireframes and edit all the images
+        - Google Fonts - imported fonts from this website
+        - Google Developer Tools - used to debug website and test for responsiveness
+        - Google Lighthouse - used to audit the performance and quality of the website
+        - WC3 HTML Validator - used to validate the HTML code
+        - WC3 CSS Validator - used to validate the CSS code
 
   ### Content
   - The text for the entire website was writing by myself
