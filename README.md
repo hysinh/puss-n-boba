@@ -1,5 +1,5 @@
 # Puss-n-Boba
-
+[View Live Project Here](https://hysinh.github.io/puss-n-boba/)
 
 ## Introduction
 Welcome to Puss-N-Boba, a (fictional) boba cafe who’s special feature is that we are also a cat cafe for those that love working and socialising in the presence of cats! Puss-N-Boba cafe aims to provide delicious boba and treats as well as a cat-filled environment for those relaxing or working. We provide high-speed internet, loads of power outlets, and comfy and cozy seating that works for those lounging for a relaxing chat with a friend or working away on your latest project or studies.
@@ -126,31 +126,79 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
   ### Validator Testing
   - #### HTML Testing
     No errors were returned when passing the official W3C HTML Validator
-    - Index/Landing page HTML validation
-    - About page HTML validation
-    - Menu page HTML validation
-    - Contact page HTML validation
+    <details >
+    <summary>Index/Landing page HTML validation</summary>  
+    ![screenshot of Index page HTML validation](docs/documentation/screenshot_HTML_index.png)
+    </details> 
+    <details >
+    <summary>About page HTML validation</summary>  
+    ![screenshot of About page HTML validation](docs/documentation/screenshot_HTML_about.png)
+    </details> 
+    <details >
+    <summary>Menu page HTML validation</summary>  
+    ![screenshot of Menu page HTML validation](docs/documentation/screenshot_HTML_menu.png)
+    </details>
+    <details >
+    <summary>Meet Cats page HTML validation</summary>  
+    ![screenshot of Meet Cats page HTML validation](docs/documentation/screenshot_HTML_meet-cats.png)
+    </details> 
+    <details >
+    <summary>Contact page HTML validation</summary>  
+    ![screenshot of Contact page HTML validation](docs/documentation/screenshot_HTML_contact.png)
+    </details> 
     
   - #### CSS Testing
     No errors were found when passing through the official W3C CSS Jigsaw validator
     <br>
-    <br>
-    - CSS Validation
+    <details >
+    <summary>CSS validation</summary>  
+    ![screenshot of CSS validation](docs/documentation/screenshot_CSS_validation.png)
+    </details> 
 
   - #### Lighthouse Performace Audit via Chrome Dev Tools
     - Desktop Lighthouse Performance Audits
-      - Index page
-      - About page
-      - Menu page
-      - Meet Cats page
-      - Contact page
+      <details >
+      <summary>Index/Landing page Lighthouse audit</summary>  
+      ![screenshot of Index page Lighthouse audit](docs/documentation/screenshot_lighthouse_index.png)
+      </details> 
+      <details >
+      <summary>About page Lighthouse audit</summary>  
+      ![screenshot of About page Lighthouse audit](docs/documentation/screenshot_lighthouse_about.png)
+      </details> 
+      <details >
+      <summary>Menu page Lighthouse audit</summary>  
+      ![screenshot of Menu page Lighthouse audit](docs/documentation/screenshot_lighthouse_menu.png)
+      </details>
+      <details >
+      <summary>Meet Cats page Lighthouse audit</summary>  
+      ![screenshot of Meet Cats page Lighthouse audit](docs/documentation/screenshot_lighthouse_meet-cats.png)
+      </details> 
+      <details >
+      <summary>Contact page Lighthouse audit</summary>  
+      ![screenshot of Contact page Lighthouse audit](docs/documentation/screenshot_lighthouse_contact.png)
+      </details> 
 
     - Mobile Lighthouse Performance Audits
-      - Index page
-      - About page
-      - Menu page
-      - Meet Cats page
-      - Contact page
+      <details >
+      <summary>Index/Landing page Lighthouse audit</summary>  
+      ![screenshot of Index page Lighthouse audit](docs/documentation/screenshot_lighthouse_index_mobile.png)
+      </details> 
+      <details >
+      <summary>About page Lighthouse audit</summary>  
+      ![screenshot of About page Lighthouse audit](docs/documentation/screenshot_lighthouse_about.png)
+      </details> 
+      <details >
+      <summary>Menu page Lighthouse audit</summary>  
+      ![screenshot of Menu page Lighthouse audit](docs/documentation/screenshot_lighthouse_menu.png)
+      </details>
+      <details >
+      <summary>Meet Cats page Lighthouse audit</summary>  
+      ![screenshot of Meet Cats page Lighthouse audit](docs/documentation/screenshot_lighthouse_meet-cats.png)
+      </details> 
+      <details >
+      <summary>Contact page Lighthouse audit</summary>  
+      ![screenshot of Contact page Lighthouse audit](docs/documentation/screenshot_lighthouse_contact.png)
+      </details> 
 
   - #### Manual Testing
     Manual testing was performed on the website checking for broken links, content errors, and responsivity across different sizes. Testing took place during the build process using Dev Tools on Chrome and on the following real-world devices and browsers:
@@ -243,7 +291,7 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
 - Boba Tea in glass with slice of cake on plate - Pexels - Charlotte May 5946970
 - Orange tabby cat - Pexels - Monique Laats 736532
 - Black cat - Pexels - Melike 13997897
-- gray cat - Generated by Photoshop Generative AI
+- Gray cat [https://www.https://www.freepik.com/free-photo/grey-kitty-with-monochrome-wall-her_13863436.htm] Image by vwalakte</a> on Freepik] - Freepik
 - Girl in cafe with boba and cat - Pexels Tri M Nguyen 12525488
 
 
