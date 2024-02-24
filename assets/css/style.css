@@ -838,7 +838,7 @@ footer p {
 
      /* Main page - Menu Sections */
     #about-menu-container {
-        background: url(../images/menu-section_600x600.webp) no-repeat 90% 100%, #a4fb9f;
+        background: url(../images/menu-section_1200x1200.webp) no-repeat 100% bottom/contain, #a4fb9f;
     }
 
     /* Main page - Contact Section */
