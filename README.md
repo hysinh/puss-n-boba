@@ -126,14 +126,31 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
   ### Validator Testing
   - #### HTML Testing
     No errors were returned when passing the official W3C HTML Validator
-    <br>
-    <br>
-    [Insert screenshot]
+    - Index/Landing page HTML validation
+    - About page HTML validation
+    - Menu page HTML validation
+    - Contact page HTML validation
+    
   - #### CSS Testing
     No errors were found when passing through the official W3C CSS Jigsaw validator
     <br>
     <br>
-    [Insert screenshot]
+    - CSS Validation
+
+  - #### Lighthouse Performace Audit via Chrome Dev Tools
+    - Desktop Lighthouse Performance Audits
+      - Index page
+      - About page
+      - Menu page
+      - Meet Cats page
+      - Contact page
+
+    - Mobile Lighthouse Performance Audits
+      - Index page
+      - About page
+      - Menu page
+      - Meet Cats page
+      - Contact page
 
   - #### Manual Testing
     Manual testing was performed on the website checking for broken links, content errors, and responsivity across different sizes. Testing took place during the build process using Dev Tools on Chrome and on the following real-world devices and browsers:
@@ -157,8 +174,18 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
      | Contact | Contact form submission works corrrectly and brings user to a validation page | Pass |
      | Contact | Google Maps is interactive and opens in a new tab when the user clicks on "view larger map" | Pass |
 
+  - #### Bus & Fixes
+      | Bug | Page | Fix |
+      | --- | ---- | --- |
+      | Missing </ul> | Menu page | I had left out the close tag for my last set of unordered lists. I closed the tag and the error was resolved. |
+      | Nesting a submit button inside an a element | Contact page | I had attempted to test a way to have the contact form direct the user to a confirmation page rather than the Code Institute form validator but it was not a working solution. I removed the <a> tag and the bug was resolved |
+      | Div not allowed as a child of the submit button | Contact page | I had previously used a div to style the buttons on the index page. However, divs were not allowed as a child of a submit button in a form. I moved the class to the submit button classes and removed the div and this resolved the bug. |
+      | Missmatching labels and ids for the contact form fields | Contact page | I had accidentally used a "-" rather than an "_" when labeling the fields for the contact form. I corrected this mistake and this resolved the bug. |
 
-  ### Unfixed Bugs
+  - ### Unfixed Bugs
+    - The Hero images on the Index, About and Menu pages are slightly large and slow down load time. I chose a larger size iamge to avoid pixelation at larger screen sizes. 
+    - The orange buttons with white text do not pass the https://dequeuniversity.com/rules/axe/4.8/color-contrast color contrast ration threshold test. Shall I leave it because it's aesthetically a better choice or make the text dark to make it more accessible to people who are color blind.
+
   
 
   ## Deployment
