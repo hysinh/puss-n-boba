@@ -1,5 +1,7 @@
 # Puss-n-Boba
-[View Live Project Here](https://hysinh.github.io/puss-n-boba/)
+  ![screenshot of landing page](docs/documentation/screenshot_amiresponsive.png)
+
+  [View Live Project Here](https://hysinh.github.io/puss-n-boba/)
 
 ## Introduction
 Welcome to Puss-N-Boba, a (fictional) boba cafe who’s special feature is that we are also a cat cafe for those that love working and socialising in the presence of cats! Puss-N-Boba cafe aims to provide delicious boba and treats as well as a cat-filled environment for those relaxing or working. We provide high-speed internet, loads of power outlets, and comfy and cozy seating that works for those lounging for a relaxing chat with a friend or working away on your latest project or studies.
@@ -12,16 +14,15 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
   * [User Stories](#user-stories) 
 * [Design](#design)
   * [Site Design](#site-design)
-  * [Colour Scheme](#color-scheme)
+  * [Colour Scheme](#colour)
   * [Typography](#typography)
-  * [Imagery](#imagery)
   * [Wireframes](#wireframes)
-* [Page Features](#page-features)
-  * [Navbar](#navbar)
-  * [Hero-Image](#hero-image)
-  * [Tagline & Call to Action](#tagline--call-to-action)
-  * [Business Ethos](#business-ethos)
+* [Features](#features)
+  * [Navigation bar](#navigation-bar)
+  * [Home Page](#home-page)
+  * [About Page](#about-page)
   * [Menu Page](#menu-page)
+  * [Cat Page](#cat-page)
   * [Contact Page](#contact-page)
   * [Footer](#footer)  
 * [Tablet & Mobile View](#tablet--mobile-view)
@@ -59,17 +60,37 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
 
 - #### Site design 
   Researching websites for other cafes and coffee shops, I was most drawn to the websites that had a clean and clear aesthetic. I went with a clean colour scheme and focused on the two main features of the cafe: Cats and Boba tea.
-- #### Colour - (insert image of colours scheme)
+- #### Colour 
+  (insert image of colours scheme)
   Preferring a clean and bright aesthetic that reflected the cheeryful and pleasant interior of the care, the colors are designed to reflect that clean and modern aesthetic while still be fun and punchy.
 - #### Typography
   The font family is Montserrat. It was chosen for it's clean look, readability, and variety of weights.
+
+  ![screenshot of font family](docs/documentation/screenshot_font_montserrat.png)
 - #### Wireframes
   I started by creating the initial website wireframes with pencil and paper. After sketching out what I planned, I started laying out the HTML and basic CSS for the site in a similar way that the Love Running tutorial went.
   <br>
   I found this to not be my design style and cumbersome. As a designer, I really needed a more solid game plan for the website and switched to Adobe Photoshop and completed the wireframes designs in Photoshop.
-  - Desktop Wireframe - [Screenshot](insert link to screenshot)
-  - Tablet Wireframe - [Screenshot](screentshot for tablet)
-  - Mobile Wireframe - [Screenshot](screenshot for mobile)
+  <details >
+  <summary>Mobile Wireframes</summary>  
+
+  ![screenshot of mobile wireframes](docs/documentation/screenshot_wireframe_mobile.png)
+  </details> 
+
+  <details >
+  <summary>Tablet Wireframes</summary>  
+
+  ![screenshot tablet wireframes](docs/documentation/screenshot_wireframe_tablet.png)
+  </details>    
+
+  <details >
+  <summary>Desktop Wireframes</summary>  
+
+  ![screenshot desktop wireframes](docs/documentation/screenshot_wireframe_desktop.png)
+  </details>    
+
+  
+  
 
 ## Features
 - ### Navigation Bar
@@ -81,7 +102,7 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
   <br>
   The Navigation Bar allows for easy navigation from page to page across all devices. The Navigation Bar allows easy navigation without the user having to revert back to the previous page using the “back” button.
 
-- ### Home page with three sections
+- ### Home Page
   1. #### Hero section
      The Home page features a photograph of the cafe with a customer sitting with a cat as well as enjoying a boba tea. The photograph allows the user to see exactly what the venue looks like and what the atmosphere of Puss-n-Boba is like with both the Boba tea offerings as well as the feline company.
   2. #### Cats section
@@ -103,11 +124,11 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
 - ### About Page
   Features the Puss-n-Boba cafe offerings - brief explanation of the three main features of the cafe - cats, boba and Treats, and highlights the potential for using the cafe space for activities such as working/studying/social environment.
 
-- ### Our Cats Page
-  Features brief description of each cat with profile image. Creates interest in the cute resident cats for those who are cat-lovers and helps to draw cat lovers to visit the cafe for a chance to interact with the resident cats
-
-- ### Boba & Treats Menu Page
+- ### Menu Page
   Features list of basic boba and treats offered
+
+- ### Cats Page
+  Features brief description of each cat with profile image. Creates interest in the cute resident cats for those who are cat-lovers and helps to draw cat lovers to visit the cafe for a chance to interact with the resident cats.
 
 - ### Contact Form
   Features a way for users to send the cafe a message. The form requires the collection of the user's full name and email as well as allows a short message to be sent to the cafe.
@@ -269,7 +290,7 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
 - Instructions on how to implement Lighthouse Chrome Developer Tool was taken from: https://developer.chrome.com/docs/devtools/lighthouse
 - Correct syntax for implementation of how to fit Background Image to a Div using CSS: https://www.geeksforgeeks.org/how-to-fit-background-image-to-div-using-css/
 - W3C CSS Validator: https://jigsaw.w3.org/css-validator/
-- How to Center align a <div> element: https://www.w3schools.com/html/html_div.asp
+- How to Center align a div element: https://www.w3schools.com/html/html_div.asp
 - HTML Block and Inline Elements: https://www.w3schools.com/html/html_blocks.asp
 - How to implement and syntax for CSS background-position Property: https://www.w3schools.com/cssref/pr_background-position.php
 - CSS Background Shorthand: https://www.w3schools.com/css/css_background_shorthand.asp
