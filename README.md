@@ -135,7 +135,31 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
     <br>
     [Insert screenshot]
 
+  - #### Manual Testing
+    Manual testing was performed on the website checking for broken links, content errors, and responsivity across different sizes. Testing took place during the build process using Dev Tools on Chrome and on the following real-world devices and browsers:
+     1. Microsoft Edge
+     2. Brave
+     3. Google Chrome
+     4. Opera
+
+     The results of testing are as follows:
+
+     | Page | Test | Pass/Fail |
+     | ---- | ---- | --------- |
+     | All  | Puss-n-Boba logo links back to the homepage | Pass |
+     | All  | Underline appears on hover when moving over navigation bar links | Pass |
+     | All  | Underline appears on corresponding navigation link when on the page | Pass |
+     | All  | Navigation links direct user correctly to the correct page | Pass |
+     | All  | Footer social media icons open in a new tab and correctly bring user to the corresponding social media website | Pass |
+     | All  | Images and sections are responsive to different device sizes | Pass |
+     | Index  | Links on the homepage bring user to the correct page | Pass |
+     | Contact | Contact form correctly requires entries into fields | Pass |
+     | Contact | Contact form submission works corrrectly and brings user to a validation page | Pass |
+     | Contact | Google Maps is interactive and opens in a new tab when the user clicks on "view larger map" | Pass |
+
+
   ### Unfixed Bugs
+  
 
   ## Deployment
    GitHub was used to deploy this website. The following steps were taken:
