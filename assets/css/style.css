@@ -289,7 +289,7 @@ img {
  /* Main page - Contact Section */
  #about-contact-container {
     display: block;
-    background: url(../images/contact-section_600x600.webp) no-repeat bottom/contain, #ffd5df;
+    background: url(../images/contact-section_1200x1200.webp) no-repeat bottom/contain, #ffd5df;
     height: 520px;
     padding-top: 10px;
 }
@@ -662,7 +662,7 @@ footer p {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
-        background: url(../images/contact-section_600x600.webp) no-repeat left bottom/contain, #ffd7e2;
+        background: url(../images/contact-section_1200x1200.webp) no-repeat left bottom/contain, #ffd7e2;
     }
 
     /* About section */ 
@@ -858,7 +858,7 @@ footer p {
 
     /* Main page - Contact Section */
     #about-contact-container {
-        background: url(../images/contact-section_600x600.webp) no-repeat 10%, #ffd5df;
+        background: url(../images/contact-section_1200x1200.webp) no-repeat center left/contain, #ffd5df;
     }
 
     /* About page */
