@@ -141,27 +141,27 @@ img {
 }
 
 .hero-image-main {
-    background: url(../images/home-hero_lg.webp) no-repeat center/cover;
+    background: url(../images/home-hero_sm.webp) no-repeat center/cover;
     height: 425px;
 } 
 
 .hero-image-about {
-    background: url(../images/about-hero_lg.webp) no-repeat center/cover;
+    background: url(../images/about-hero_sm.webp) no-repeat center/cover;
     height: 425px;
 }
 
 .hero-image-cats {
-    background: url(../images/cats-hero_lg.webp) no-repeat bottom/contain;
+    background: url(../images/cats-hero_sm.webp) no-repeat bottom/contain;
     height: 425px;
 }
 
 .hero-image-menu {
-    background: url(../images/menu-hero_lg.webp) no-repeat center/cover;
+    background: url(../images/menu-hero_sm.webp) no-repeat center/cover;
     height: 425px;
 }
 
 .hero-image-contact {
-    background: url(../images/contact-hero.webp) no-repeat bottom/cover;
+    background: url(../images/contact-hero_sm.webp) no-repeat bottom/cover;
     height: 425px;
 }
 
@@ -488,23 +488,23 @@ footer p {
 
     /* Hero Image */
     .hero-image-main {
-        background: url(../images/home-hero_lg.webp) no-repeat center/cover;
+        background: url(../images/home-hero_sm.webp) no-repeat center/cover;
     } 
     
     .hero-image-about {
-        background: url(../images/about-hero_lg.webp) no-repeat bottom/cover;
+        background: url(../images/about-hero_sm.webp) no-repeat bottom/cover;
     }
     
     .hero-image-cats {
-        background: url(../images/cats-hero_lg.webp) no-repeat bottom/contain;
+        background: url(../images/cats-hero_sm.webp) no-repeat bottom/contain;
     }
     
     .hero-image-menu {
-        background: url(../images/menu-hero_lg.webp) no-repeat bottom/cover;
+        background: url(../images/menu-hero_sm.webp) no-repeat bottom/cover;
     }
     
     .hero-image-contact {
-        background: url(../images/contact-hero.webp) no-repeat center/contain;
+        background: url(../images/contact-hero_sm.webp) no-repeat center/contain;
     }
 
     .overlay-text-main {
