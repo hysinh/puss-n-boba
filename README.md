@@ -251,10 +251,10 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
       | Div not allowed as a child of the submit button | Contact page | I had previously used a div to style the buttons on the index page. However, divs were not allowed as a child of a submit button in a form. I moved the class to the submit button classes and removed the div and this resolved the bug. |
       | Missmatching labels and ids for the contact form fields | Contact page | I had accidentally used a "-" rather than an "_" when labeling the fields for the contact form. I corrected this mistake and this resolved the bug. |
       | Color Contrast failure for accessibility on orange buttons | Index & Contact pages | After running a Lighthouse audit on Google Dev Tools, I saw that the white text on the orange buttons failed the color contrast analyzer. I adjusted the color for easier readability and accessability. |
+      | Hero images are loading to slow and lowering website performance | Index, About, and Menu pages | I uploaded smaller file sized images for the mobile and tablet screen sizes. This resolved the issue. |
 
   - ### Unfixed Bugs
-    - The Hero images on the Index, About and Menu pages are slightly large and slow down load time. I chose a larger size iamge to avoid pixelation at larger screen sizes. 
-    - 
+    -  Lower SEO Lighthouse score due to Blocking directive: x-robots-tag: noindex, nofollow. I could not find any code matching this in my website. So, I am unsure why the website sends this message to search engines. I will need to do more research to find out what is the cause for this.
 
   
 
