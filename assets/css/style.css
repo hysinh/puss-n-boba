@@ -24,6 +24,7 @@ body {
 h3 {
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 p {
@@ -796,8 +797,8 @@ footer p {
         padding-bottom: 1rem;
     }
     
-    .contact-form, .hero-image-contact {
-        width: 350px;
+    .contact-form {
+        width: 665px;
     }
 }
 
@@ -828,10 +829,6 @@ footer p {
     
     .hero-image-menu {
         background: url(../images/menu-hero_lg.webp) no-repeat bottom/cover;
-    }
-
-    .hero-image-contact {
-        background: url(../images/contact-hero.webp) no-repeat bottom/cover;
     }
 
     .overlay-text-main {
@@ -903,12 +900,5 @@ footer p {
 
     .section-descriptions-about h3 {
         font-size: 180%;
-    }
-
-    .hero-image-contact {
-        border-radius: 50%;
-        height: 350px;
-        width: 350px;
-        border: #ffffff solid 3px;
     }
 }
