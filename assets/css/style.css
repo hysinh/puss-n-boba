@@ -229,7 +229,10 @@ img {
     align-items: center;
     justify-content: center;
 }
-
+ #main-about {
+    width: 100%;
+ }
+ 
 .main-description {
     padding-top: 20px;
     padding-bottom: 20px;
