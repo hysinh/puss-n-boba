@@ -32,6 +32,10 @@ p {
     padding-bottom: 10px;
 }
 
+a {
+    cursor: pointer;
+}
+
 .center {
     text-align: center;
 }
@@ -453,6 +457,7 @@ input[type=text], input[type=email], textarea {
 
 button[type=submit] {
     border: 0;
+    cursor: pointer;
 }
 
 #contact {
