@@ -135,8 +135,6 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
 
 - ### Footer
   The footer section includes links to three relevant social media sites for Puss-n-Boba. The links open to new tabs and allow for easy navigation for the user.
-  <br>
-  <br>
   The footer encourages the user to interact with Puss-n-Boba in other ways and to stay connected to Puss-n-Boba on social media for the latest events, antics of the cats, and featured Boba teas and treats.
 
 
@@ -148,36 +146,47 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
   - #### HTML Testing
     No errors were returned when passing the official W3C HTML Validator
     <details >
-    <summary>Index/Landing page HTML validation</summary>  
-    ![screenshot of Index page HTML validation](docs/documentation/screenshot_HTML_index.png)
-    </details> 
-    <details >
-    <summary>About page HTML validation</summary>  
-    ![screenshot of About page HTML validation](docs/documentation/screenshot_HTML_about.png)
-    </details> 
-    <details >
-    <summary>Menu page HTML validation</summary>  
-    ![screenshot of Menu page HTML validation](docs/documentation/screenshot_HTML_menu.png)
+    <summary>Index Page HTML Validation</summary>  
+
+    ![screenshot of index page validation](docs/documentation/screenshot_html_index.png)
     </details>
     <details >
-    <summary>Meet Cats page HTML validation</summary>  
-    ![screenshot of Meet Cats page HTML validation](docs/documentation/screenshot_HTML_meet-cats.png)
-    </details> 
+    <summary>About Page HTML Validation</summary>  
+
+    ![screenshot of about page validation](docs/documentation/screenshot_html_about.png)
+    </details>
     <details >
-    <summary>Contact page HTML validation</summary>  
-    ![screenshot of Contact page HTML validation](docs/documentation/screenshot_HTML_contact.png)
-    </details> 
+    <summary>Menu Page HTML Validation</summary>  
+
+    ![screenshot of menu page validation](docs/documentation/screenshot_html_menu.png)
+    </details>
+    <details >
+    <summary>Meet Cats Page HTML Validation</summary>  
+
+    ![screenshot of meet cats page validation](docs/documentation/screenshot_html_meetcats.png)
+    </details>
+    <details >
+    <summary>Contact Page HTML Validation</summary>  
+
+    ![screenshot of contact page validation](docs/documentation/screenshot_html_contact.png)
+    </details>
+    <details >
+    <summary>Confirmation Page HTML Validation</summary>  
+
+    ![screenshot of confirmation page validation](docs/documentation/screenshot_html_confirmation.png)
+    </details>
+     
     
   - #### CSS Testing
     No errors were found when passing through the official W3C CSS Jigsaw validator
-    <br>
     <details >
-    <summary>CSS validation</summary>  
-    ![screenshot of CSS validation](docs/documentation/screenshot_CSS_validation.png)
-    </details> 
+    <summary>CSS Validation</summary>  
+
+    ![screenshot of css validation](docs/documentation/screenshot_css_validator.webp)
+    </details>
 
   - #### Lighthouse Performace Audit via Chrome Dev Tools
-    - Desktop Lighthouse Performance Audits
+  - Desktop Lighthouse Performance Audits
       <details >
       <summary>Index/Landing page Lighthouse audit</summary>  
       ![screenshot of Index page Lighthouse audit](docs/documentation/screenshot_lighthouse_index.png)
@@ -198,14 +207,16 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
       <summary>Contact page Lighthouse audit</summary>  
       ![screenshot of Contact page Lighthouse audit](docs/documentation/screenshot_lighthouse_contact.png)
       </details> 
+  - Mobile Lighthouse Performance Audits
+    <details >
+    <summary>Index Page Lighthouse audit</summary>  
 
-    - Mobile Lighthouse Performance Audits
-      <details >
-      <summary>Index/Landing page Lighthouse audit</summary>  
-      ![screenshot of Index page Lighthouse audit](docs/documentation/screenshot_lighthouse_index_mobile.png)
-      </details> 
-      <details >
-      <summary>About page Lighthouse audit</summary>  
+    ![screenshot of index page lighthouse audit](docs/documentation/screenshot_lighthouse_index.png)
+    </details>
+
+    <details >
+    
+    <summary>About page Lighthouse audit</summary>  
       ![screenshot of About page Lighthouse audit](docs/documentation/screenshot_lighthouse_about.png)
       </details> 
       <details >
