@@ -16,20 +16,14 @@ body {
     /* generic styles */
     color: #262626;
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
+    background-color: #fff;
     font-size: 95%;
     line-height: 1.3;
 }
 
 h3 {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-p {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px 0 0;
 }
 
 a {
@@ -66,9 +60,8 @@ a {
 
 /* Header */
 header {
-    background-color: #ffffff;
-    padding: 0 .75rem;
-    /* Fixes Header to top */
+    background-color: #fff;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100dvw;
@@ -85,13 +78,12 @@ header a {
 
 #navbar {
     font-size: 100%;
-    letter-spacing: 0;
     list-style-type: none;
-    margin-top: 10px;
+    margin: 10px 0 0;
 }
 
 #navbar > li {
-    margin-bottom: .5em;
+    margin: 0 0 .5em 0;
 }
 
 .active {
@@ -101,7 +93,7 @@ header a {
 /* Navbar styles with dropdown with hamburger toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #fff;
     width: 100%;
     padding: 0 1rem;
     left: 0;
@@ -109,7 +101,7 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle */
+/* Nav toggle - from Love Running walkthrough project*/
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -126,9 +118,7 @@ nav {
 main {
     width: 100%;
     padding: 0;
-    /* Makes main element take up any surplus space and push the footer to the bottom of the page */
-    flex: 1 0 auto;
-    margin-top: 47px;
+    margin: 47px 0 0;
 
 }
 
@@ -178,7 +168,7 @@ img {
     position: absolute;
     bottom: 250px;
     right: 10px;
-    padding: 20px 20px 10px 20px;
+    padding: 20px;
 }
 
 .overlay-text-about {
@@ -189,7 +179,7 @@ img {
     position: absolute;
     bottom: 70px;
     right: 10px;
-    padding: 5px 20px 5px 20px;
+    padding: 20px;
 }
 
 .overlay-text-menu {
@@ -200,7 +190,7 @@ img {
     position: absolute;
     bottom: 70px;
     right: 10px;
-    padding: 5px 20px 5px 20px;
+    padding: 20px;
 }
 
 .overlay-text-cats {
@@ -210,7 +200,7 @@ img {
     position: absolute;
     bottom: 200px;
     right: 10px;
-    padding: 5px 20px 5px 20px;
+    padding: 20px;
 }
 
 .hero-container h2 {
@@ -229,21 +219,20 @@ img {
     align-items: center;
     justify-content: center;
 }
+
  #main-about {
     width: 100%;
  }
- 
+
 .main-description {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     
 }
 
 .main-description p {
-        text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        margin: 1rem;    
+    text-align: center;
+    padding: 1rem 0;
+    margin: 1rem;    
 }
 
 /* Main page - About sections */
@@ -266,8 +255,7 @@ img {
 
 #main-about p {
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     margin: 1rem;
 }
 
@@ -292,8 +280,8 @@ img {
 #about-menu-container {
     display: block;
     background: url(../images/menu-section_1200x1200.webp) no-repeat bottom/contain, #a4fb9f;
-    height: 480px;
-    padding-top: 10px;
+    height: 500px;
+    padding: 10px 0 0;
 }
 
  /* Main page - Contact Section */
@@ -301,21 +289,20 @@ img {
     display: block;
     background: url(../images/contact-section_1200x1200.webp) no-repeat bottom/contain, #ffd5df;
     height: 535px;
-    padding-top: 10px;
+    padding: 10px 0 0;
 }
 
 
 /* About Page */
 #about-container1 {
     display: block;
-    padding-top: 10px;
+    padding: 10px 0 0;
     margin: 10px;
 }
 
 #about-container1 p {
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     margin: 1rem;
 }
 
@@ -326,8 +313,7 @@ img {
 
 /* Menu Page */
 #menu-container, #menu-container2 {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0;
     width: 100%;
     display: block;
 }
@@ -337,7 +323,7 @@ img {
 }
 
 #menu-container2 {
-    background-color: #ffffff;
+    background-color: #ffef9f;
 }
 
 #menu-container ul {
@@ -368,16 +354,14 @@ img {
     position: absolute;
     bottom: 100px;
     right: 10px;
-    padding: 40px 20px 10px 20px;
-    border-radius: 15px;
+    padding: 40px 20px 10px;
 }
 
 #cat-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding-bottom: 10px;
+    padding: 0 0 10px;
 }
 
 .cats {
@@ -385,7 +369,6 @@ img {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
@@ -426,7 +409,6 @@ img {
     text-align: center;
 }
 
-
 /* Contact Page */
 #contact-container {
     background-color: #ffd7e2;
@@ -434,10 +416,8 @@ img {
 }
 
 .contact-info {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 5px;
     display: block;
-    padding-bottom: 1rem;
 }
 
 .contact-info p {
@@ -446,17 +426,18 @@ img {
 }
 
 .contact-form {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 5px;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=text],
+input[type=email],
+textarea {
     width: 90%;
     margin:10px 0; 
     border: 2px solid #ffffff;
     border-radius: 4px;
     font-family: 'Montserrat', sans-serif;
-  }
+}
 
 button[type=submit] {
     border: 0;
@@ -465,9 +446,6 @@ button[type=submit] {
 
 #contact {
     padding: 1rem;
-}
-
-.contact-message {
 }
 
 /* Confirmation page */
@@ -499,7 +477,7 @@ footer a {
 
 footer p {
     font-size: 60%;
-    padding-top: 1rem;
+    padding: 1rem 0 0;
     font-weight: bold;
 }
 
@@ -571,9 +549,7 @@ footer p {
     .cats {
         width: 250px;
     }
-
 }
-
 
 /* Media query for tablets and later (768px and up) */
 @media screen and (min-width: 768px) {
@@ -643,11 +619,19 @@ footer p {
         right: 10px;
     }
 
-    .hero-image-main, .hero-image-about, .hero-image-menu, .hero-image-cats, .hero-image-contact, .overlay-text-main, .overlay-text-cats, .overlay-text-about, .overlay-text-menu {
+    .hero-image-main,
+    .hero-image-about,
+    .hero-image-menu,
+    .hero-image-cats,
+    .hero-image-contact,
+    .overlay-text-main,
+    .overlay-text-cats,
+    .overlay-text-about,
+    .overlay-text-menu {
         width: 50%;
     }
 
-    /* Main section */
+    /* Home page sections */
     main {
         margin-top: 65px;
     }
@@ -692,7 +676,6 @@ footer p {
 
     .section-descriptions {
         width: 50%;
-        padding-top: 10%;
     }
 
     #about-menu-container {
@@ -724,7 +707,7 @@ footer p {
         background: url(../images/contact-section_1200x1200.webp) no-repeat bottom/contain;
     }
 
-    /* About section */ 
+    /* About page */ 
     #about-container {
         display: flex;
         flex-direction: row;
@@ -757,9 +740,10 @@ footer p {
         height: 287px;
     }
 
-    /* Menu section */
+    /* Menu page */
 
-    #menu-container, #menu-container2 {
+    #menu-container,
+    #menu-container2 {
         margin-top: 0;
         display: flex;
         flex-direction: row;
@@ -784,13 +768,15 @@ footer p {
         display: block;
     }
 
-    .contact-info, .contact-container-bottom {
+    .contact-info,
+    .contact-container-bottom {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-    .contact-address, .contact-map {
+    .contact-address,
+    .contact-map {
         margin: 0 3rem;
     }
 
@@ -858,17 +844,6 @@ footer p {
         bottom: 100px;
     }
 
-    /* Cat section */
-    #cat-container {
-        max-width: 992px;
-        margin: auto;
-    }
-
-    .main-center {
-        width: 100%;
-        display: block;
-    }
-
     /* Home page */
     .main-description {
         width: 70%;
@@ -879,7 +854,10 @@ footer p {
         font-size: 200%;
     }
     
-    #about-pussnboba-container, #about-cats-container, #about-menu-container, #about-contact-container {
+    #about-pussnboba-container,
+    #about-cats-container,
+    #about-menu-container,
+    #about-contact-container {
         height: 450px;
     }
 
@@ -914,5 +892,16 @@ footer p {
 
     .section-descriptions-about h3 {
         font-size: 180%;
+    }
+
+    /* Cat Page */
+    #cat-container {
+        max-width: 992px;
+        margin: auto;
+    }
+    
+    .main-center {
+        width: 100%;
+        display: block;
     }
 }
