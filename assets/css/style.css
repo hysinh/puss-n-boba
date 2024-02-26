@@ -467,6 +467,12 @@ button[type=submit] {
 .contact-message {
 }
 
+/* Confirmation page */
+.contact-confirmation {
+    height: auto;
+    padding: 50px 0;
+}
+
 /* Footer */
 footer {
     padding: 3em .75rem;
