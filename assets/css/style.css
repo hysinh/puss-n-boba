@@ -738,6 +738,10 @@ footer p {
         display: inline;
     }
 
+    .cat-description {
+        height: 287px;
+    }
+
     /* Menu section */
 
     #menu-container, #menu-container2 {
