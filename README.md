@@ -257,10 +257,21 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
 
   - #### Manual Testing
     Manual testing was performed on the website checking for broken links, content errors, and responsivity across different sizes. Testing took place during the build process using Dev Tools on Chrome and on the following real-world devices and browsers:
-     1. Microsoft Edge
-     2. Brave
-     3. Google Chrome
-     4. Opera
+
+    - Devices 
+      1. Pixel 4XL
+      2. Xiaomi 11T Pro
+      3. Jonas' phone
+      4. Jason's phone
+      5. Lenovo IdeaPad Y500 Laptop
+      6. Jonas' desktop
+      7. family desktop
+      8. microsoft surface
+    - Browsers
+      1. Microsoft Edge
+      2. Brave
+      3. Google Chrome
+      4. Opera
 
      The results of testing are as follows:
 
@@ -288,7 +299,8 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
       | Hero images are loading to slow and lowering website performance | Index, About, and Menu pages | I uploaded smaller file sized images for the mobile and tablet screen sizes. This resolved the issue. |
 
   - ### Unfixed Bugs
-    -  Lower SEO Lighthouse score due to Blocking directive: x-robots-tag: noindex, nofollow. I could not find any code matching this in my website. So, I am unsure why the website sends this message to search engines. I will need to do more research to find out what is the cause for this.
+    - Lower SEO Lighthouse score due to Blocking directive: x-robots-tag: noindex, nofollow. I could not find any code matching this in my website. So, I am unsure why the website sends this message to search engines. I will need to do more research to find out what is the cause for this.
+    - light 
 
   
 
@@ -302,6 +314,17 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
    5. Under GitHub Pages, go to Build and deployment. Then, under Source, select "Deploy from a branch". 
    6. Next, under Branch, select "main" and "/root" and then click on the Save button.
    7. After a few moments, the website will be made live and the link will be made visible at the top of the page. 
+
+   how to clone & make changes
+   1. Open the repository on GitHub.
+   2. Navigate to the <Code> on the navigation across the top.
+   3. Then, navigate to the green <Code> button on the right side and click.
+   4. Select the Local tab and click on the copy icon to make a copy of the repository.
+   5. Then navigate back to your main GitHub dashboard and then create a new repository with your desired name.
+   6. On the next page, navigate to the bottom of the page and select Import code under "Import code from another repository".
+   7. In the next window, paste the copied link of the Puss-N-Boba repository into the line.
+   8. Then, click Begin Import to import the repository code.
+   9. Make changes and/or deploy as desired.
 
   ## Credits
 
