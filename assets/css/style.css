@@ -476,6 +476,11 @@ button[type=submit] {
     padding: 2rem 0;
 }
 
+.contact-confirmation p {
+    padding: 1rem 0;
+}
+
+
 /* Footer */
 footer {
     padding: 3em .75rem;
@@ -756,6 +761,10 @@ footer p {
 
     .cats {
         display: inline;
+    }
+
+    .overlay-text-cats h2 {
+        text-align: center;
     }
 
     .cat-description {
