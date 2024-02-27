@@ -468,8 +468,12 @@ button[type=submit] {
 
 /* Confirmation page */
 .contact-confirmation {
-    height: auto;
+    height: 450px;
     padding: 50px 0;
+}
+
+.contact-confirmation h3 {
+    padding: 2rem 0;
 }
 
 /* Footer */

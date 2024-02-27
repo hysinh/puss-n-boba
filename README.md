@@ -226,10 +226,10 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
     <details >
     <summary>Cats Page Lighthouse audit</summary>  
 
-    ![screenshot of cats page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_meet-cats.png)
+    ![screenshot of cats page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_cats.png)
     </details> 
     <details >
-    <summary>Contact Page Lighthouse audit</summary>  
+    <summary>Contact Page Lighthouse audit: Audit revealed a bug that I was unable to fix. Please see table of unfixed bugs for details.</summary>  
 
     ![screenshot of contact page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_contact.png)
     </details>
