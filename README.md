@@ -211,26 +211,32 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
     <details >
     <summary>Index Page Lighthouse audit</summary>  
 
-    ![screenshot of index page lighthouse audit](docs/documentation/screenshot_lighthouse_index.png)
+    ![screenshot of index page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_index.png)
     </details>
-
     <details >
-    
-    <summary>About page Lighthouse audit</summary>  
-      ![screenshot of About page Lighthouse audit](docs/documentation/screenshot_lighthouse_about.png)
-      </details> 
-      <details >
-      <summary>Menu page Lighthouse audit</summary>  
-      ![screenshot of Menu page Lighthouse audit](docs/documentation/screenshot_lighthouse_menu.png)
-      </details>
-      <details >
-      <summary>Meet Cats page Lighthouse audit</summary>  
-      ![screenshot of Meet Cats page Lighthouse audit](docs/documentation/screenshot_lighthouse_meet-cats.png)
-      </details> 
-      <details >
-      <summary>Contact page Lighthouse audit</summary>  
-      ![screenshot of Contact page Lighthouse audit](docs/documentation/screenshot_lighthouse_contact.png)
-      </details> 
+    <summary>About Page Lighthouse audit</summary>  
+
+    ![screenshot of about page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_about.png)
+    </details>
+    <details >
+    <summary>Menu Page Lighthouse audit</summary>  
+
+    ![screenshot of menu page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_menu.png)
+    </details>
+    <details >
+    <summary>Cats Page Lighthouse audit</summary>  
+
+    ![screenshot of cats page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_meet-cats.png)
+    </details> 
+    <details >
+    <summary>Contact Page Lighthouse audit</summary>  
+
+    ![screenshot of contact page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_contact.png)
+    </details>
+    <summary>Confirmation Page Lighthouse audit</summary>  
+
+    ![screenshot of confirmation page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_confirmation.png)
+    </details>
 
   - #### Manual Testing
     Manual testing was performed on the website checking for broken links, content errors, and responsivity across different sizes. Testing took place during the build process using Dev Tools on Chrome and on the following real-world devices and browsers:

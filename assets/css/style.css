@@ -421,19 +421,32 @@ img {
     display: block;
 }
 
+.contact-info h2 {
+    text-align: center;
+    padding: 1rem 0;
+}
+
 .contact-info p {
     text-align: center;
     line-height: 1.5;
 }
 
+.contact-map {
+    padding: 1rem 0;
+}
+
 .contact-form {
-    padding: 0 5px;
+    padding: 1rem 0;
+}
+
+.contact-form h3 {
+    padding: 0 0 1rem;
 }
 
 input[type=text],
 input[type=email],
 textarea {
-    width: 90%;
+    width: 100%;
     margin:10px 0; 
     border: 2px solid #ffffff;
     border-radius: 4px;
@@ -781,8 +794,17 @@ footer p {
         margin: 0 3rem;
     }
 
+    .contact-map {
+        padding: 2rem 0;
+    }
+
+    .contact-address h2,
     .contact-address h3 {
         text-align: left;
+    }
+
+    .contact-address h2 {
+        font-size: 200%;
     }
 
     .contact-address p {
@@ -794,12 +816,12 @@ footer p {
     }
 
     .contact-form h3 {
-        text-align: left;
+        text-align: center;
         padding-bottom: 1rem;
     }
     
     .contact-form {
-        width: 665px;
+        width: 650px;
     }
 }
 
@@ -904,5 +926,10 @@ footer p {
     .main-center {
         width: 100%;
         display: block;
+    }
+
+    /* Contact Page */
+    .contact-form {
+        width: 850px;
     }
 }
