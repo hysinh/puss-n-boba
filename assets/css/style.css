@@ -433,10 +433,12 @@ img {
 .contact-info p {
     text-align: center;
     line-height: 1.5;
+    padding: 10px 0;
 }
 
 .contact-map {
     padding: 1rem 0;
+    margin: 2rem 0;
 }
 
 .contact-form {
@@ -806,13 +808,12 @@ footer p {
         justify-content: center;
     }
 
-    .contact-address,
-    .contact-map {
-        margin: 0 3rem;
+    .contact-address {
+        margin: 2rem 3rem;
     }
 
     .contact-map {
-        padding: 2rem 0;
+        margin: 4rem 3rem;
     }
 
     .contact-address h2,

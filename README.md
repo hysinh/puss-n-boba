@@ -6,7 +6,7 @@
 ## Introduction
 Welcome to Puss-N-Boba, a (fictional) boba cafe who’s special feature is that we are also a cat cafe for those that love working and socialising in the presence of cats! Puss-N-Boba cafe aims to provide delicious boba and treats as well as a cat-filled environment for those relaxing or working. We provide high-speed internet, loads of power outlets, and comfy and cozy seating that works for those lounging for a relaxing chat with a friend or working away on your latest project or studies.
 
-I wanted this website to showcase the cats that call Puss-N-Boba cafe home as well as our other main feature - Boba and Treats - and the location itself as an ideal place to meet a friend or work or study. To reflect the inviting environment of the cafe, the website also features similar colours and images of the cats and the boba and treats to encourage customers to visit the cafe.
+This website is intended to showcase the cats that call Puss-N-Boba cafe home as well as our other main feature - Boba and Treats - and the location itself as an ideal place to meet a friend or work or study. To reflect the inviting environment of the cafe, the website also features similar colours and images of the cats and the boba and treats to encourage customers to visit the cafe.
 
 ## CONTENTS  
   
@@ -47,30 +47,32 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
 ---   
 
 ## User Experience
-
+Puss-N-Boba is a boba tea cafe offers customers the very special experience of enjoying their boba tea and treats in the presence of the cafe's resident cats. The website is an essential tool to convey this special free experience that each customer can enjoy when visiting the cafe as well as reflect the aesthetic of the cafe as a fun, happy, bright cafe in which you can socialise, work, or study while enjoying your boba and cat experience. 
+- ### Visitor Goal
+  Puss-N-Boba visitors can range in age and gender but they all generally are animal lovers and in particular are lovers of the cat species. The website plays an essential role in providing essential information to visitors on the cat nature of the cafe, the cafe's menu and offerings, information about the cats, and how to reach Puss-n-Boba whether in person or via social media or email which includes address, telephone, opening hours, and map information.
 - ### User stories
-    1. User looking for cafe - map
-    2. User looking for cafe location/contact information
-    3. User looking to easily navigate the website
-    4. User looking to find more information about the menu and boba offerings
-    5. User looking to find more about cats that live at Puss-n-boba
+  
+    1. User looking for the cafe can access the location information via the home page as well as along the top navbar. They can access the address information, opening hours, and a map for access information
+    2. User looking to contact the cafe can navigate to the contact page from both the home page as well as the top navbar located on each page for telephone information as well as a message contact form on the contact page. If the user prefers to contact the cafe over social media, social media icons leading to the cafe's social media are located on the footer of each page. 
+    3. User looking to easily navigate the website will find links to all the essential pages on the home page as well as along the top navbar on each page. 
+    4. User looking to find more information about the menu and boba offerings can easily navigate to the menu page via the home page link or from the top navbar located on each page. The menu page provides the essential menu and treats offerings.
+    5. Users who prefer to find the cafe's most recent menu offerings can navigate to the cafe's social media via the social media links in the footer for the newest menu offerings.
+    6. User looking to find more about cats that live at Puss-n-boba can easily navigate via a link on the home page or via the top navbar to the Cat page which provides a brief description of each cat along with a photo of the cat. It also provides some basic interaction information for users should they visit the cafe.
 
 
 ## Design
 
 - #### Site design 
   Researching websites for other cafes and coffee shops, I was most drawn to the websites that had a clean and clear aesthetic. I went with a clean colour scheme and focused on the two main features of the cafe: Cats and Boba tea.
-- #### Colour 
-  (insert image of colours scheme)
-  Preferring a clean and bright aesthetic that reflected the cheeryful and pleasant interior of the care, the colors are designed to reflect that clean and modern aesthetic while still be fun and punchy.
-- #### Typography
-  The font family is Montserrat. It was chosen for it's clean look, readability, and variety of weights.
-
-  ![screenshot of font family](docs/documentation/screenshot_font_montserrat.png)
+  The Puss-N-Boba website needed to be responsive and available on a variety of screen sizes and devices to make it as accessible as possible. I focused on the following sizes:
+  1. Mobile Device dimensions (small): 280px x 653px
+  2. Mobile Device dimensions (larger): 375px and larger
+  3. Tablet Device dimensions: 736px x 1024px
+  4. Laptop Device dimensions: 992px and larger 
 - #### Wireframes
-  I started by creating the initial website wireframes with pencil and paper. After sketching out what I planned, I started laying out the HTML and basic CSS for the site in a similar way that the Love Running tutorial went.
+  Initially, I started by creating the initial Puss-N-Boba website wireframes with pencil and paper. After sketching out what I planned, I started laying out the HTML and basic CSS for the site in a similar way that the Love Running tutorial went.
   <br>
-  I found this to not be my design style and cumbersome. As a designer, I really needed a more solid game plan for the website and switched to Adobe Photoshop and completed the wireframes designs in Photoshop.
+  However, I found this process to be lacking the information and details such as the colours and fonts when using too simple a wireframe. So, part way through the process, I took my wireframes to Photoshop where I worked on the color palette, typography, and imagery in greater detail.
   <details >
   <summary>Mobile Wireframes</summary>  
 
@@ -88,6 +90,15 @@ I wanted this website to showcase the cats that call Puss-N-Boba cafe home as we
 
   ![screenshot desktop wireframes](docs/documentation/screenshot_wireframe_desktop.png)
   </details>    
+- #### Colour 
+  ![screenshot of font family](docs/documentation/screenshot_color_palette.png)
+  Preferring a clean and bright aesthetic that reflected the cheeryful and pleasant interior of the cafe, the colors are designed to reflect that clean and modern aesthetic while still be fun and punchy. 
+  
+- #### Typography
+  The font family is Montserrat. It was chosen for it's clean look, readability, and variety of weights.
+
+  ![screenshot of font family](docs/documentation/screenshot_font_montserrat.png)
+
 
   
   
