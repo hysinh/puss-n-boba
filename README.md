@@ -103,7 +103,9 @@ Puss-N-Boba is a boba tea cafe offers customers the very special experience of e
   Preferring a clean and bright aesthetic that reflected the cheeryful and pleasant interior of the cafe, the colors are designed to reflect that clean and modern aesthetic while still be fun and punchy. 
   <br>
   <br>
-  Initially, my buttons featured white text and this, in combination with the orange background, failed the acceptable [WCAG](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) contrast ratio. In the end, I chose to change the text color to the same color as the rest of the website's font color to ensure readability and accessibility.
+  Initially, my buttons featured white text and this, in combination with the orange background, failed the acceptable [WCAG](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) contrast ratio. Ultimately, I chose to change the text color to the same color as the rest of the website's font color to ensure readability and accessibility. I used the [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) to test the colors.
+
+  ![screenshot of adobe color analysis](docs/documentation/screenshot_colorcontrast.png)
 - #### Typography
   The font family is Montserrat. It was chosen for it's clean look, readability, and variety of weights.
 
@@ -115,48 +117,137 @@ Puss-N-Boba is a boba tea cafe offers customers the very special experience of e
 <details >
 <summary></summary>  
 
-![screenshot navbar](docs/documentation/screenshot_navbar.png)
+![screenshot navbar](docs/documentation/screenshot_features_navbar.png)
 </details>  
 The Navigation Bar is featured on all five pages of the website. The full responsive navigation bar includes links to the Logo, About page, Menu Page, Our Cats page, and Contact page. Each navigation bar is identical and allows for easy navigation of the user.
 <br>
 <br>
 The Navigation Bar allows for easy navigation from page to page across all devices. The Navigation Bar allows easy navigation without the user having to revert back to the previous page using the “back” button.
 
-- ### Home Page
-  1. #### Hero section
-     The Home page features a photograph of the cafe with a customer sitting with a cat as well as enjoying a boba tea. The photograph allows the user to see exactly what the venue looks like and what the atmosphere of Puss-n-Boba is like with both the Boba tea offerings as well as the feline company.
-  2. #### Cats section
-     The Kitties in the Window section allows the user to see the image of a cute cat and motivates the user to visit the cafe in hopes of interacting with the profiled cats.
-     <br>
-     <br>
-     The “Learn More” button gives the user an opportunity to view and read the profiles of each cat living at the cafe.
-     <br><br>
-     The cat image encourages customers who enjoy petting and spending time with cats to visit the cafe in order to interact with the cats.
-  3. #### Boba & Treats section
-     This section showcases the other main feature of the cafe - Boba Teas and treats. The image in this section is a boba tea so that users know exactly what is the main featured menu item of the cafe and know what the main focus of the cafe is.
-     <br>
-     <br>
-     This section features an “explore” button that directs you to the Menu page and allows the user to view the different boba and menu items at the cafe.
+### Home Page
+1. #### Hero section
+   <details>
+   <summary></summary>
 
-  4. #### Contact Us section
-     this section highlights the accessibility and location of the Puss-n-Boba cafe
+   ![screenshot of index page hero image](docs/documentation/screenshot_features_index_hero.webp)
+   </details>
+   The Home page features a photograph of the cafe with a customer sitting with a cat as well as enjoying a boba tea. The photograph allows the user to see exactly what the venue looks like, what the atmosphere of Puss-n-Boba is like, and what to expect when you visit Puss-N-Boba.
+2. #### Cats section
+   <details>
+   <summary></summary>
+
+   ![screenshot of index page cat section](docs/documentation/screenshot_features_index_cats.png)
+   </details>
+   The Kitties in the Window section allows the user to see the image of one of the resident cats and motivates the user to visit the cafe in hopes of interacting with the profiled cats. The “Meet the Cats” button gives the user an opportunity to navigate to the Meet the Cats page where they can view and read the profiles of each cat living at the cafe.
+3. #### Boba & Treats section
+   <details>
+   <summary></summary>
+
+   ![screenshot of index page menu section](docs/documentation/screenshot_features_index_menu.png)
+   </details>
+   The Menu section showcases the other main feature of the cafe - Boba Teas and treats. The image in this section is a boba tea so that users know exactly what is the main featured menu item of the cafe. This section features an “explore” button that directs you to the Menu page and allows the user to view the different boba and menu items at the cafe.
+
+4. #### Contact Us section
+   <details>
+   <summary></summary>
+
+   ![screenshot of index page contact section](docs/documentation/screenshot_features_index_contact.png)
+   </details>
+   The Contact section offers users an additional way to navigate to the Contact page to either find location information, contact information, or the contact form.
      
-- ### About Page
-  Features the Puss-n-Boba cafe offerings - brief explanation of the three main features of the cafe - cats, boba and Treats, and highlights the potential for using the cafe space for activities such as working/studying/social environment.
+### About Page
+<details>
+<summary></summary>
 
-- ### Menu Page
-  Features list of basic boba and treats offered
+![screenshot of about page](docs/documentation/screenshot_features_about.png)
+</details>
+The overall design of the website continues on the About Page featuring a Hero style image at the top with overlay text highlighting the main feature of the cafe with both imagery and copy. Below the hero image, there is a summary of the main features of the cafe. The tablet and laptop layouts are similar but the mobile version switches the content to a column layout.
 
-- ### Cats Page
-  Features brief description of each cat with profile image. Creates interest in the cute resident cats for those who are cat-lovers and helps to draw cat lovers to visit the cafe for a chance to interact with the resident cats.
+### Menu Page
+<details>
+<summary></summary>
 
-- ### Contact Form
-  Features a way for users to send the cafe a message. The form requires the collection of the user's full name and email as well as allows a short message to be sent to the cafe.
+![screenshot of menu page](docs/documentation/screenshot_features_menu.webp)
+</details>
+The design of the menu page follows the overall the design set by the Home page with a hero image at the top with a short amount of copy summarizing the content of the page. Below this image and copy, the page provides detail about how the boba tea menu options as well as a list of potentially available treats. Again, the tablet and laptop layouts are similar but the mobile versions switches to a column layout.
 
-- ### Footer
-  The footer section includes links to three relevant social media sites for Puss-n-Boba. The links open to new tabs and allow for easy navigation for the user.
-  The footer encourages the user to interact with Puss-n-Boba in other ways and to stay connected to Puss-n-Boba on social media for the latest events, antics of the cats, and featured Boba teas and treats.
+### Cats Page
+<details>
+<summary></summary>
 
+![screenshot of cats page](docs/documentation/screenshot_features_cats.webp)
+</details>
+The Cats Page also follows the overall design set by the Home page with a hero image at the top with a heading describing the page. The page features a small amount of text describing the cats that live at the cafe and then feature a section of cat profiles that provide a small description of each cat along with an image of the cat. The screenshot is of the tablet layout and the cat profiles are displayed as two across. On screensizes of a laptop or larger, this cat profile layout changes to three cats across while the mobile version displays in a column layout.
+
+### Contact Form
+<details>
+<summary></summary>
+
+![screenshot of contact page](docs/documentation/screenshot_features_contact.webp)
+</details>
+The Contact page deviates slightly from the precedence set by the other pages and omits the hero image. The page displays location and contact information for the cafe including a Google maps iframe which displays the cafe location and can provide directions if needed. The other main feature of the website is the contact form which allows the user to contact the cafe directly.
+
+### Confirmation Page
+<details>
+<summary></summary>
+
+![screenshot of confirmation page](docs/documentation/screenshot_features_confirmation.webp)
+</details>
+When a user completes the contact form, the user is directed to this confirmation page to let them know their form was submitted correctly and to confirmat that the cafe will contact them. The page also provides an alternate contact method (telephone) should urgency be a consideration. The page is responsive and adjusts to screensizes as appropriate. The design is remains the same across different devices.
+
+### Footer
+<details>
+<summary></summary>
+
+![screenshot of footer](docs/documentation/screenshot_features_footer.webp)
+</details>
+The footer section includes links to three relevant social media sites for Puss-n-Boba. The links open to new tabs and allow for easy navigation for the user. The footer encourages the user to interact with Puss-n-Boba in other ways and to stay connected to Puss-n-Boba on social media for the latest events, antics of the cats, and updates on featured Boba teas and treats. The design of the footer is responsive and remains consistent across mobile, tablet, and laptop device screen sizes.
+
+### Favicon
+<details >
+<summary></summary>  
+
+![screenshot favicon](docs/documentation/screenshot_features_favicon.png)
+</details>  
+A favicon was added to provide further visual support of the Puss-N-Boba brand.
+
+## Technologies
+  ### Languages Used
+  - HTML5
+  - CSS
+
+  ### Technologies & Programs Used
+  - GitHub - used to save and store all the files for this website
+  - GitHub Codespaces - was used as the IDE to develop and test the code for this website
+  - Git - provided the version control
+  - Adobe Photoshop 2024 - used to create wireframes and edit all the images
+  - Google Fonts - imported fonts from this website
+  - Google Developer Tools - used to debug website and test for responsiveness
+  - Google Lighthouse - used to audit the performance and quality of the website
+  - WC3 HTML Validator - used to validate the HTML code
+  - WC3 CSS Validator - used to validate the CSS code https://jigsaw.w3.org/css-validator/
+
+  ### Deployment
+  GitHub was used to deploy this website. The following steps were taken:
+
+  1. Log into GitHub account.
+  2. Navigate to the project repository: puss-n-boba
+  3. Click on the Settings button on the horizontal navigation across the top portion of the page.
+  4. Navigate to the Pages link under the Code and automation section on the left navigation.
+  5. Under GitHub Pages, go to Build and deployment. Then, under Source, select "Deploy from a branch". 
+  6. Next, under Branch, select "main" and "/root" and then click on the Save button.
+  7. After a few moments, the website will be made live and the link will be made visible at the top of the page. 
+
+  How to clone Puss-N-Boba & make changes:
+  1. Open the repository on GitHub.
+  2. Navigate to the CODE link on the navigation across the top.
+  3. Then, navigate to the green CODE button on the right side and click.
+  4. Select the Local tab and click on the copy icon to make a copy of the repository.
+  5. Then navigate back to your main GitHub dashboard and then create a new repository with your desired name.
+  6. On the next page, navigate to the bottom of the page and select Import code under "Import code from another repository".
+  7. In the next window, paste the copied link of the Puss-N-Boba repository into the line.
+  8. Then, click Begin Import to import the repository code.
+  9. Make changes and/or deploy as desired.
 
 
 
@@ -206,74 +297,75 @@ The Navigation Bar allows for easy navigation from page to page across all devic
     </details>
 
   - #### Lighthouse Performace Audit via Chrome Dev Tools
-    - Desktop Lighthouse Performance Audits
-      <details >
-      <summary>Index Page Lighthouse audit</summary>  
+    Desktop Lighthouse Performance Audits
+    <details >
+    <summary>Index Page Lighthouse audit</summary>  
 
-      ![screenshot of index page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_index.png)
-      </details>
-      <details >
-      <summary>About Page Lighthouse audit</summary>  
+    ![screenshot of index page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_index.png)
+    </details>
+    <details >
+    <summary>About Page Lighthouse audit</summary>  
 
-      ![screenshot of about page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_about.png)
-      </details>
-      <details >
-      <summary>Menu Page Lighthouse audit</summary>  
+    ![screenshot of about page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_about.png)
+    </details>
+    <details >
+    <summary>Menu Page Lighthouse audit</summary>  
 
-      ![screenshot of menu page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_menu.png)
-      </details>
-      <details >
-      <summary>Cats Page Lighthouse audit</summary>  
+    ![screenshot of menu page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_menu.png)
+    </details>
+    <details >
+    <summary>Cats Page Lighthouse audit</summary>  
 
-      ![screenshot of cats page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_cats.png)
-      </details>
-      <details>
-      <summary>Contact Page Lighthouse audit: Audit revealed a Best Practices bug that I was unable to resolve. Please see table of unfixed bugs for details.</summary>  
+    ![screenshot of cats page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_cats.png)
+    </details>
+    <details>
+    <summary>Contact Page Lighthouse audit: Audit revealed a Best Practices bug that I was unable to resolve. Please see table of unfixed bugs for details.</summary>  
 
-      ![screenshot of contact page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_contact.png)
-      </details>
-      <details>
-      <summary>Contact Page Lighthouse bug</summary>  
+    ![screenshot of contact page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_contact.png)
+    </details>
+    <details>
+    <summary>Contact Page Lighthouse bug</summary>  
 
-      ![screenshot of contact page lighthouse audit bug](docs/documentation/screenshot_lighthouse_desktop_contact_bestpractices_bug.png)
-      </details>
-      <details >
-      <summary>Confirmation Page Lighthouse audit</summary>  
+    ![screenshot of contact page lighthouse audit bug](docs/documentation/screenshot_lighthouse_desktop_contact_bestpractices_bug.png)
+    </details>
+    <details >
+    <summary>Confirmation Page Lighthouse audit</summary>  
 
-      ![screenshot of confirmation page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_confirmation.png)
-      </details>
-      <br>
-    - Mobile Lighthouse Performance Audits
-      <details >
-      <summary>Index Page Lighthouse audit</summary>  
+    ![screenshot of confirmation page lighthouse audit](docs/documentation/screenshot_lighthouse_desktop_confirmation.png)
+    </details>
+    <br>
 
-      ![screenshot of index page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_index.png)
-      </details>
-      <details >
-      <summary>About Page Lighthouse audit</summary>  
+    Mobile Lighthouse Performance Audits
+    <details >
+    <summary>Index Page Lighthouse audit</summary>  
 
-      ![screenshot of about page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_about.png)
-      </details>
-      <details >
-      <summary>Menu Page Lighthouse audit</summary>  
+    ![screenshot of index page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_index.png)
+    </details>
+    <details >
+    <summary>About Page Lighthouse audit</summary>  
 
-      ![screenshot of menu page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_menu.png)
-      </details>
-      <details >
-      <summary>Cats Page Lighthouse audit</summary>  
+    ![screenshot of about page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_about.png)
+    </details>
+    <details >
+    <summary>Menu Page Lighthouse audit</summary>  
 
-      ![screenshot of cats page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_cats.png)
-      </details> 
-      <details >
-      <summary>Contact Page Lighthouse audit: Audit revealed a bug that I was unable to resolve. Please see table of unfixed bugs for details.</summary>  
+    ![screenshot of menu page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_menu.png)
+    </details>
+    <details >
+    <summary>Cats Page Lighthouse audit</summary>  
 
-      ![screenshot of contact page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_contact.png)
-      </details>
-      <details >
-      <summary>Confirmation Page Lighthouse audit</summary>  
+    ![screenshot of cats page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_cats.png)
+    </details> 
+    <details >
+    <summary>Contact Page Lighthouse audit: Audit revealed a bug that I was unable to resolve. Please see table of unfixed bugs for details.</summary>  
 
-      ![screenshot of confirmation page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_confirmation.png)
-      </details>
+    ![screenshot of contact page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_contact.png)
+    </details>
+    <details >
+    <summary>Confirmation Page Lighthouse audit</summary>  
+
+    ![screenshot of confirmation page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_confirmation.png)
+    </details>
 
   - #### Manual Testing
     Manual testing was performed on the website checking for broken links, content errors, and responsivity across different sizes. Testing took place during the build process using Dev Tools on Chrome and on the following real-world devices and browsers:
@@ -312,7 +404,7 @@ The Navigation Bar allows for easy navigation from page to page across all devic
       | Bug | Page | Fix |
       | --- | ---- | --- |
       | Missing </ul> | Menu page | I had left out the close tag for my last set of unordered lists. I closed the tag and the error was resolved. |
-      | Nesting a submit button inside an a element | Contact page | I had attempted to test a way to have the contact form direct the user to a confirmation page rather than the Code Institute form validator but it was not a working solution. I removed the <a> tag and the bug was resolved |
+      | Nesting a submit button inside an a element | Contact page | I had attempted to test a way to have the contact form direct the user to a confirmation page rather than the Code Institute form validator but it was not a working solution. I removed the anchor tag and the bug was resolved |
       | Div not allowed as a child of the submit button | Contact page | I had previously used a div to style the buttons on the index page. However, divs were not allowed as a child of a submit button in a form. I moved the class to the submit button classes and removed the div and this resolved the bug. |
       | Missmatching labels and ids for the contact form fields | Contact page | I had accidentally used a "-" rather than an "_" when labeling the fields for the contact form. I corrected this mistake and this resolved the bug. |
       | Color Contrast failure for accessibility on orange buttons | Index & Contact pages | After running a Lighthouse audit on Google Dev Tools, I saw that the white text on the orange buttons failed the color contrast analyzer. I adjusted the color for easier readability and accessability. |
@@ -320,51 +412,12 @@ The Navigation Bar allows for easy navigation from page to page across all devic
 
   - ### Unfixed Bugs
     - Lower SEO Lighthouse score due to Blocking directive: x-robots-tag: noindex, nofollow. I could not find any code matching this in my website. So, I am unsure why the website sends this message to search engines. I will need to do more research to find out what is the cause for this.
-    - light 
+    - Lighthouse audits revealed that the contact page had a Best Practices issue that involved caching of third-party cookies. Primarily, the offending feature was the google maps iframe. After researching the topic, I was unsure how to improve this on my end since it required me to be able to set the cache time to a longer period of time to allow the website to load a cached version of the map for repeat users. Since I was unable to figure out how to do this in an IDE environment, I decided that for the scope of this project, I would have to leave this bug unresolved at this time.
+    - Lighthouse audits also occasionally revealed that javascript that allowed the footer icons to load from the third-party website https://fontawesome.com/ also did not always run optimally. This was not a solution I could resolve on my end without foregoing using third-party assets. To resolve this, I could have created my own icons instead of relying on a third-party site.
 
-  
-
-  ## Deployment
-   GitHub was used to deploy this website. The following steps were taken:
-
-   1. Log into GitHub account.
-   2. Navigate to the project repository: puss-n-boba
-   3. Click on the Settings button on the horizontal navigation across the top portion of the page.
-   4. Navigate to the Pages link under the Code and automation section on the left navigation.
-   5. Under GitHub Pages, go to Build and deployment. Then, under Source, select "Deploy from a branch". 
-   6. Next, under Branch, select "main" and "/root" and then click on the Save button.
-   7. After a few moments, the website will be made live and the link will be made visible at the top of the page. 
-
-   how to clone & make changes
-   1. Open the repository on GitHub.
-   2. Navigate to the <Code> on the navigation across the top.
-   3. Then, navigate to the green <Code> button on the right side and click.
-   4. Select the Local tab and click on the copy icon to make a copy of the repository.
-   5. Then navigate back to your main GitHub dashboard and then create a new repository with your desired name.
-   6. On the next page, navigate to the bottom of the page and select Import code under "Import code from another repository".
-   7. In the next window, paste the copied link of the Puss-N-Boba repository into the line.
-   8. Then, click Begin Import to import the repository code.
-   9. Make changes and/or deploy as desired.
-
-  ## Credits
-
-    - ### Technologies
-      - #### Languages Used
-        - HTML5
-        - CSS
-
-      - #### Technologies & Programs Used
-        - GitHub - used to save and store all the files for this website
-        - Git - provided the version control
-        - Adobe Photoshop 2024 - used to create wireframes and edit all the images
-        - Google Fonts - imported fonts from this website
-        - Google Developer Tools - used to debug website and test for responsiveness
-        - Google Lighthouse - used to audit the performance and quality of the website
-        - WC3 HTML Validator - used to validate the HTML code
-        - WC3 CSS Validator - used to validate the CSS code
-
-  ### Content
-  - The text for the entire website was writing by myself
+## Credits
+### Content
+- Content for website was writing by myself
 - Instructions on how to implement Lighthouse Chrome Developer Tool was taken from: https://developer.chrome.com/docs/devtools/lighthouse
 - Correct syntax for implementation of how to fit Background Image to a Div using CSS: https://www.geeksforgeeks.org/how-to-fit-background-image-to-div-using-css/
 - W3C CSS Validator: https://jigsaw.w3.org/css-validator/
@@ -381,18 +434,20 @@ The Navigation Bar allows for easy navigation from page to page across all devic
 - Guidance for CSS Background image - Shrink to fit fixed size div: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - Guidance on how to implement and correct syntax for a background-color while also having a background image: https://stackoverflow.com/questions/8195215/css-background-image-on-background-color#:~:text=background%3A,position%20and%20background%2Drepeat%20properties.
 - Correct syntax for letter-spacing property: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
-- how to make a cursor into a hand https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
+- How to make a cursor into a hand https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
+- Ideas on how to format README.MD document: https://github.com/amylour/scoops_pp1/
 
 
 ### Media
-- Boba Tea Image - Freepik
+- Boba Tea Image <a href="https://www.freepik.com/free-ai-image/3d-rendering-chinese-reunion-dinner-drink_95017479.htm#fromView=search&page=1&position=0&uuid=b6560aec-2550-4e00-87e1-d1f93dd01820">Image by freepik</a>
 - Girl holding boba tea drink - Pexels - Frank Minjarez 12608213
 - Laptop in cafe (boba tea is AI modified) - Pexels - lisa Fotios 1833306
 - Boba Tea in glass with slice of cake on plate - Pexels - Charlotte May 5946970
 - Orange tabby cat - Pexels - Monique Laats 736532
 - Black cat - Pexels - Melike 13997897
-- Gray cat [https://www.https://www.freepik.com/free-photo/grey-kitty-with-monochrome-wall-her_13863436.htm] Image by vwalakte</a> on Freepik] - Freepik
 - Girl in cafe with boba and cat - Pexels Tri M Nguyen 12525488
+- Grey cat <a href="https://www.freepik.com/free-photo/grey-kitty-with-monochrome-wall-her_13863436.htm#fromView=search&page=1&position=20&uuid=e0b52cc4-cedf-4278-9486-ceac22348b6f">Image by freepik</a>
+- Fluffy cat on purple background <a href="https://www.freepik.com/free-ai-image/beautiful-cat-with-fluffy-background_64658858.htm#query=siamese%20cat%20on%20red%20background&position=9&from_view=search&track=ais_ai_generated&uuid=0da5044d-b730-447b-82e1-69d4dfaee454">Image By freepik</a>
 
 
 
