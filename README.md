@@ -14,33 +14,31 @@ This website is intended to showcase the cats that call Puss-N-Boba cafe home as
   * [User Stories](#user-stories) 
 * [Design](#design)
   * [Site Design](#site-design)
+  * [Wireframes](#wireframes)
   * [Colour Scheme](#colour)
   * [Typography](#typography)
-  * [Wireframes](#wireframes)
 * [Features](#features)
   * [Navigation bar](#navigation-bar)
   * [Home Page](#home-page)
   * [About Page](#about-page)
   * [Menu Page](#menu-page)
-  * [Cat Page](#cat-page)
-  * [Contact Page](#contact-page)
+  * [Cats Page](#cats-page)
+  * [Contact Form](#contact-form)
+  * [Confirmation Page](#confirmation-page)
   * [Footer](#footer)  
-* [Tablet & Mobile View](#tablet--mobile-view)
-  * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
-  * [Tablet View](#tablet-view-ipad-miniipad-prosurface-pro)
-  * [Mobile View](#mobile-view-iphone-5iphone-seiphone-xriphone-12-pro)
+  * [Favicon](#favicon)  
 * [Future Features](#future-features)
-* [Technologies Used](#technologies-used)
+* [Technologies](#technologies)
   * [Languages Used](#languages-used)
-  * [Frameworks, Libraries, Technologies & Programs Used](#frameworks-libraries-technologies--programs-used)
-* [Deployment](#deployment)
-  * [How to deploy](#how-to-deploy)
+  * [Technologies and Programs Used](#technologies-and-programs-used)
+  * [Deployment](#deployment)
 * [Testing](#testing)
-  * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
-  * [CSS Validation using W3C Validation](#css-validation-using-w3c-validation)
-  * [Lighthouse scores via Chrome Developer Tools](#lighthouse-scores-via-chrome-developer-tools)
-  * [Bugs & Fixes](#bugs--fixes)
-  * [Unsolved Bugs](#unsolved-bugs)
+  * [HTML Validation](#html-validation)
+  * [CSS Validationn](#css-validation)
+  * [Lighthouse Performance Audits via Chrome Dev Tools](#lighthouse-performace-audit-via-chrome-dev-tools)
+  * [Manual Testing](#manual-testing)
+  * [Bugs and Fixes](#bugs-and-fixes)
+  * [Unfixed Bugs](#unfixed-bugs)
 * [Credits](#credits) 
 
   
@@ -211,12 +209,18 @@ The footer section includes links to three relevant social media sites for Puss-
 </details>  
 A favicon was added to provide further visual support of the Puss-N-Boba brand.
 
+
+## Future Features
+- A future feature would be a booking feature that allows people to prebook tables and timeslots for a portion of the tables to allow visitors to ensure they will have a table available should they visit the cafe.
+- As an add-on to this booking feature, an inquiry form to book the cafe for special events or larger groups.
+- Also for future development, a feature that allows users to pre-order Boba tea and/or treats for collection/takeaway.
+
 ## Technologies
   ### Languages Used
   - HTML5
   - CSS
 
-  ### Technologies & Programs Used
+  ### Technologies and Programs Used
   - GitHub - used to save and store all the files for this website
   - GitHub Codespaces - was used as the IDE to develop and test the code for this website
   - Git - provided the version control
@@ -254,7 +258,7 @@ A favicon was added to provide further visual support of the Puss-N-Boba brand.
   ## Testing
 
   ### Validator Testing
-  - #### HTML Testing
+  - #### HTML Validation
     No errors were returned when passing the official W3C HTML Validator
     <details >
     <summary>Index Page HTML Validation</summary>  
@@ -288,7 +292,7 @@ A favicon was added to provide further visual support of the Puss-N-Boba brand.
     </details>
      
     
-  - #### CSS Testing
+  - #### CSS Validation
     No errors were found when passing through the official W3C CSS Jigsaw validator
     <details >
     <summary>CSS Validation</summary>  
@@ -367,53 +371,51 @@ A favicon was added to provide further visual support of the Puss-N-Boba brand.
     ![screenshot of confirmation page lighthouse audit](docs/documentation/screenshot_lighthouse_mobile_confirmation.png)
     </details>
 
-  - #### Manual Testing
-    Manual testing was performed on the website checking for broken links, content errors, and responsivity across different sizes. Testing took place during the build process using Dev Tools on Chrome and on the following real-world devices and browsers:
+  ### Manual Testing
+  Manual testing was performed on the website checking for broken links, content errors, and responsivity across different sizes. Testing took place during the build process using Dev Tools on Chrome and on the following real-world devices and browsers:
 
-    - Devices 
-      1. Pixel 4XL
-      2. Xiaomi 11T Pro
-      3. Jonas' phone
-      4. Jason's phone
-      5. Lenovo IdeaPad Y500 Laptop
-      6. Jonas' desktop
-      7. family desktop
-      8. microsoft surface
-    - Browsers
-      1. Microsoft Edge
-      2. Brave
-      3. Google Chrome
-      4. Opera
+  #### Devices 
+  1. Pixel 4XL
+  2. Xiaomi 11T Pro
+  3. Redmi Note 12 Pro+
+  4. Lenovo IdeaPad Y500 Laptop
+  5. Alienware Aurora R7 Desktop
+  6. Microsoft Surface
 
-     The results of testing are as follows:
+  #### Browsers
+  1. Microsoft Edge
+  2. Brave
+  3. Google Chrome
+  4. Opera
 
-     | Page | Test | Pass/Fail |
-     | ---- | ---- | --------- |
-     | All  | Puss-n-Boba logo links back to the homepage | Pass |
-     | All  | Underline appears on hover when moving over navigation bar links | Pass |
-     | All  | Underline appears on corresponding navigation link when on the page | Pass |
-     | All  | Navigation links direct user correctly to the correct page | Pass |
-     | All  | Footer social media icons open in a new tab and correctly bring user to the corresponding social media website | Pass |
-     | All  | Images and sections are responsive to different device sizes | Pass |
-     | Index  | Links on the homepage bring user to the correct page | Pass |
-     | Contact | Contact form correctly requires entries into fields | Pass |
-     | Contact | Contact form submission works corrrectly and brings user to a validation page | Pass |
-     | Contact | Google Maps is interactive and opens in a new tab when the user clicks on "view larger map" | Pass |
+  #### The results of testing are as follows:
+  | Page | Test | Pass/Fail |
+  | ---- | ---- | --------- |
+  | All  | Puss-n-Boba logo links back to the homepage | Pass |
+  | All  | Underline appears on hover when moving over navigation bar links | Pass |
+  | All  | Underline appears on corresponding navigation link when on the page | Pass |
+  | All  | Navigation links direct user correctly to the correct page | Pass |
+  | All  | Footer social media icons open in a new tab and correctly bring user to the corresponding social media website | Pass |
+  | All  | Images and sections are responsive to different device sizes | Pass |
+  | Index  | Links on the homepage bring user to the correct page | Pass |
+  | Contact | Contact form correctly requires entries into fields | Pass |
+  | Contact | Contact form submission works corrrectly and brings user to a validation page | Pass |
+  | Contact | Google Maps is interactive and opens in a new tab when the user clicks on "view larger map" | Pass |
 
-  - #### Bug & Fixes
-      | Bug | Page | Fix |
-      | --- | ---- | --- |
-      | Missing </ul> | Menu page | I had left out the close tag for my last set of unordered lists. I closed the tag and the error was resolved. |
-      | Nesting a submit button inside an a element | Contact page | I had attempted to test a way to have the contact form direct the user to a confirmation page rather than the Code Institute form validator but it was not a working solution. I removed the anchor tag and the bug was resolved |
-      | Div not allowed as a child of the submit button | Contact page | I had previously used a div to style the buttons on the index page. However, divs were not allowed as a child of a submit button in a form. I moved the class to the submit button classes and removed the div and this resolved the bug. |
-      | Missmatching labels and ids for the contact form fields | Contact page | I had accidentally used a "-" rather than an "_" when labeling the fields for the contact form. I corrected this mistake and this resolved the bug. |
-      | Color Contrast failure for accessibility on orange buttons | Index & Contact pages | After running a Lighthouse audit on Google Dev Tools, I saw that the white text on the orange buttons failed the color contrast analyzer. I adjusted the color for easier readability and accessability. |
-      | Hero images are loading to slow and lowering website performance | Index, About, and Menu pages | I uploaded smaller file sized images for the mobile and tablet screen sizes. This resolved the issue. |
+  #### Bugs and Fixes
+  | Bug | Page | Fix |
+  | --- | ---- | --- |
+  | Missing </ul> | Menu page | I had left out the close tag for my last set of unordered lists. I closed the tag and the error was resolved. |
+  | Nesting a submit button inside an a element | Contact page | I had attempted to test a way to have the contact form direct the user to a confirmation page rather than the Code Institute form validator but it was not a working solution. I removed the anchor tag and the bug was resolved |
+  | Div not allowed as a child of the submit button | Contact page | I had previously used a div to style the buttons on the index page. However, divs were not allowed as a child of a submit button in a form. I moved the class to the submit button classes and removed the div and this resolved the bug. |
+  | Missmatching labels and ids for the contact form fields | Contact page | I had accidentally used a "-" rather than an "_" when labeling the fields for the contact form. I corrected this mistake and this resolved the bug. |
+  | Color Contrast failure for accessibility on orange buttons | Index & Contact pages | After running a Lighthouse audit on Google Dev Tools, I saw that the white text on the orange buttons failed the color contrast analyzer. I adjusted the color for easier readability and accessability. |
+  | Hero images are loading to slow and lowering website performance | Index, About, and Menu pages | I uploaded smaller file sized images for the mobile and tablet screen sizes. This resolved the issue. |
 
-  - ### Unfixed Bugs
-    - Lower SEO Lighthouse score due to Blocking directive: x-robots-tag: noindex, nofollow. I could not find any code matching this in my website. So, I am unsure why the website sends this message to search engines. I will need to do more research to find out what is the cause for this.
-    - Lighthouse audits revealed that the contact page had a Best Practices issue that involved caching of third-party cookies. Primarily, the offending feature was the google maps iframe. After researching the topic, I was unsure how to improve this on my end since it required me to be able to set the cache time to a longer period of time to allow the website to load a cached version of the map for repeat users. Since I was unable to figure out how to do this in an IDE environment, I decided that for the scope of this project, I would have to leave this bug unresolved at this time.
-    - Lighthouse audits also occasionally revealed that javascript that allowed the footer icons to load from the third-party website https://fontawesome.com/ also did not always run optimally. This was not a solution I could resolve on my end without foregoing using third-party assets. To resolve this, I could have created my own icons instead of relying on a third-party site.
+  ### Unfixed Bugs
+  - Lower SEO Lighthouse score due to Blocking directive: x-robots-tag: noindex, nofollow. I could not find any code matching this in my website. So, I am unsure why the website sends this message to search engines. I will need to do more research to find out what is the cause for this.
+  - Lighthouse audits revealed that the contact page had a Best Practices issue that involved caching of third-party cookies. Primarily, the offending feature was the google maps iframe. After researching the topic, I was unsure how to improve this on my end since it required me to be able to set the cache time to a longer period of time to allow the website to load a cached version of the map for repeat users. Since I was unable to figure out how to do this in an IDE environment, I decided that for the scope of this project, I would have to leave this bug unresolved at this time.
+  - Lighthouse audits also occasionally revealed that javascript that allowed the footer icons to load from the third-party website https://fontawesome.com/ also did not always run optimally. This was not a solution I could resolve on my end without foregoing using third-party assets. To resolve this, I could have created my own icons instead of relying on a third-party site.
 
 ## Credits
 ### Content
@@ -436,18 +438,22 @@ A favicon was added to provide further visual support of the Puss-N-Boba brand.
 - Correct syntax for letter-spacing property: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
 - How to make a cursor into a hand https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
 - Ideas on how to format README.MD document: https://github.com/amylour/scoops_pp1/
+- Naviation bar toggle menu code - Love running website tutorial - Code Institute
 
 
 ### Media
 - Boba Tea Image <a href="https://www.freepik.com/free-ai-image/3d-rendering-chinese-reunion-dinner-drink_95017479.htm#fromView=search&page=1&position=0&uuid=b6560aec-2550-4e00-87e1-d1f93dd01820">Image by freepik</a>
-- Girl holding boba tea drink - Pexels - Frank Minjarez 12608213
-- Laptop in cafe (boba tea is AI modified) - Pexels - lisa Fotios 1833306
-- Boba Tea in glass with slice of cake on plate - Pexels - Charlotte May 5946970
-- Orange tabby cat - Pexels - Monique Laats 736532
-- Black cat - Pexels - Melike 13997897
-- Girl in cafe with boba and cat - Pexels Tri M Nguyen 12525488
-- Grey cat <a href="https://www.freepik.com/free-photo/grey-kitty-with-monochrome-wall-her_13863436.htm#fromView=search&page=1&position=20&uuid=e0b52cc4-cedf-4278-9486-ceac22348b6f">Image by freepik</a>
+- Girl holding boba tea drink - <a href="https://www.pexels.com/photo/young-woman-sitting-at-a-table-and-holding-a-cup-of-iced-coffee-14608213/">Pexels image by Frank Minjarez 12608213</a>
+- Laptop in cafe (boba tea is AI modified) - <a href="https://www.pexels.com/photo/photo-of-laptop-beside-white-mug-1833306/">Pexels image by lisa Fotios 1833306</a>
+- Boba Tea in glass with slice of cake on plate - <a href="https://www.pexels.com/photo/fresh-matcha-latte-served-on-table-with-sweet-pie-5946966/">Pexels image by Charlotte May 5946970</a>
+- Girl in cafe with boba and cat (Cat and boba tea is an AI modification) <a href="https://www.pexels.com/photo/woman-using-ereader-at-cafe-12525488/">Pexels image by Tri M Nguyen 12525488</a>
+- Grey cat on yellow background <a href="https://www.freepik.com/free-photo/grey-kitty-with-monochrome-wall-her_13863436.htm#fromView=search&page=1&position=20&uuid=e0b52cc4-cedf-4278-9486-ceac22348b6f">Image by freepik</a>
 - Fluffy cat on purple background <a href="https://www.freepik.com/free-ai-image/beautiful-cat-with-fluffy-background_64658858.htm#query=siamese%20cat%20on%20red%20background&position=9&from_view=search&track=ais_ai_generated&uuid=0da5044d-b730-447b-82e1-69d4dfaee454">Image By freepik</a>
+- Black and white cat <a href="https://www.freepik.com/free-psd/beautiful-cat-portrait-isolated_38310708.htm#query=cat&position=7&from_view=search&track=sph&uuid=dd43868f-2005-4a3b-a5e1-8f70be8520ec">Freepik</a>
+- Grey cat in profile <a href="https://www.freepik.com/free-psd/beautiful-cat-portrait-isolated_38310656.htm#query=cat&position=18&from_view=search&track=sph&uuid=dd43868f-2005-4a3b-a5e1-8f70be8520ec">Freepik</a>
+- Orange cat - <a href="https://www.pexels.com/photo/brown-short-coated-cat-736532/">Pexels image by Monique Laats</a>
+- Tabby cat - <a href="https://www.pexels.com/photo/short-fur-black-and-brown-cat-3054570/">Pexels image</a>
+
 
 
 
