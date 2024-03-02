@@ -49,19 +49,12 @@ Puss-N-Boba is a boba tea cafe offers customers the very special experience of e
 - ### Visitor Goal
   Puss-N-Boba visitors can range in age and gender but they all generally are animal lovers and in particular are lovers of the cat species. The website plays an essential role in providing essential information to visitors on the cat nature of the cafe, the cafe's menu and offerings, information about the cats, and how to reach Puss-n-Boba whether in person or via social media or email which includes address, telephone, opening hours, and map information.
 - ### User stories
-  
-    1. User looking for the cafe can access the location information via the home page as well as along the top navbar. They can access the address information, opening hours, and a map for access information.
-
-    2. User looking to contact the cafe can navigate to the contact page from both the home page as well as the top navbar located on each page for telephone information as well as a message contact form on the contact page. If the user prefers to contact the cafe over social media, social media icons leading to the cafe's social media are located on the footer of each page. 
-
-    3. User looking to easily navigate the website will find links to all the essential pages on the home page as well as along the top navbar on each page. 
-
-    4. User looking to find more information about the menu and boba offerings can easily navigate to the menu page via the home page link or from the top navbar located on each page. The menu page provides the essential menu and treats offerings.
-
-    5. Users who prefer to find the cafe's most recent menu offerings can navigate to the cafe's social media via the social media links in the footer for the newest menu offerings.
-
-    6. User looking to find more about cats that live at Puss-n-boba can easily navigate via a link on the home page or via the top navbar to the Cat page which provides a brief description of each cat along with a photo of the cat. It also provides some basic interaction information for users should they visit the cafe.
-
+  1. User looking for the cafe can access the location information via the home page as well as along the top navbar. They can access the address information, opening hours, and a map for access information.
+  2. User looking to contact the cafe can navigate to the contact page from both the home page as well as the top navbar located on each page for telephone information as well as a message contact form on the contact page. If the user prefers to contact the cafe over social media, social media icons leading to the cafe's social media are located on the footer of each page. 
+  3. User looking to easily navigate the website will find links to all the essential pages on the home page as well as along the top navbar on each page. 
+  4. User looking to find more information about the menu and boba offerings can easily navigate to the menu page via the home page link or from the top navbar located on each page. The menu page provides the essential menu and treats offerings.
+  5. Users who prefer to find the cafe's most recent menu offerings can navigate to the cafe's social media via the social media links in the footer for the newest menu offerings.
+  6. User looking to find more about cats that live at Puss-n-boba can easily navigate via a link on the home page or via the top navbar to the Cat page which provides a brief description of each cat along with a photo of the cat. It also provides some basic interaction information for users should they visit the cafe.
 
 ## Design
 
@@ -72,7 +65,7 @@ Puss-N-Boba is a boba tea cafe offers customers the very special experience of e
 
   1. Mobile Device dimensions (small): 280px x 653px
   2. Mobile Device dimensions (larger): 375px and larger
-  3. Tablet Device dimensions: 736px x 1024px
+  3. Tablet Device dimensions: 736px and larger
   4. Laptop Device dimensions: 992px and larger 
 - #### Wireframes
   Initially, I started by creating the initial Puss-N-Boba website wireframes with pencil and paper. After sketching out what I planned, I started laying out the HTML and basic CSS for the site in a similar way that the Love Running tutorial went.
