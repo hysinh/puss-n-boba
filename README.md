@@ -398,7 +398,7 @@ A favicon was added to provide further visual support of the Puss-N-Boba brand.
   #### Bugs and Fixes
   | Bug | Page | Fix |
   | --- | ---- | --- |
-  | Missing </ul> | Menu page | I had left out the close tag for my last set of unordered lists. I closed the tag and the error was resolved. |
+  | Missing ul end tag | Menu page | I had left out the close tag for my last set of unordered lists. I closed the tag and the error was resolved. |
   | Nesting a submit button inside an a element | Contact page | I had attempted to test a way to have the contact form direct the user to a confirmation page rather than the Code Institute form validator but it was not a working solution. I removed the anchor tag and the bug was resolved |
   | Div not allowed as a child of the submit button | Contact page | I had previously used a div to style the buttons on the index page. However, divs were not allowed as a child of a submit button in a form. I moved the class to the submit button classes and removed the div and this resolved the bug. |
   | Missmatching labels and ids for the contact form fields | Contact page | I had accidentally used a "-" rather than an "_" when labeling the fields for the contact form. I corrected this mistake and this resolved the bug. |
